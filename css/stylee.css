@@ -391,3 +391,64 @@ h1 {
 	/* end of header */
 }
 /* end of min-width 1200px */
+
+/* footer */
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+}
+.social-icons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  
+}
+.social-icons li{
+    margin: 0 10px;
+}
+.social-icons a{
+    text-decoration: none;
+    color:  #fff;
+    font-size: large;
+}
+.social-icons a i{
+font-size: 1.1rem;
+transition: color .4s ease;
+}
+.social-icons a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #111;
+    width: 100vw;
+padding: 20px 0;
+text-align: center;
+}
+.footer-bottom p{
+    font-size:  14px;
+    word-spacing:  2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    
+    font-weight: 200;
+}
+
+/* end footer */
