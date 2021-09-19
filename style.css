@@ -39,7 +39,7 @@ h1 {
 }
 
 h3 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -85,17 +85,18 @@ section p {
   -o-border-radius: var(--border-radius);
   margin: 4rem 2rem 0 2rem;
 }
-
+.card h3{
+  margin-top:40px !important;
+}
 .card .top {
   height: 25%;
   width: 100%;
-  background-color: green;
   position: relative;
 }
 
 .card .top .circle {
-  height: 8.5rem;
-  width: 8.5rem;
+  height: 7rem;
+  width: 7rem;
   background-color: var(--white);
   border-radius: var(--border-radius-circle);
   -webkit-border-radius: var(--border-radius-circle);
@@ -103,7 +104,7 @@ section p {
   -ms-border-radius: var(--border-radius-circle);
   -o-border-radius: var(--border-radius-circle);
   position: absolute;
-  bottom: -1.7rem;
+  bottom: -3rem;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -116,28 +117,31 @@ section p {
 }
 
 .circle i {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 .card:nth-of-type(1) .top {
-  background-color: var(--logo-green);
+  background-color: #C77B7B;
+  height:95px;
 }
 .card:nth-of-type(2) .top {
-  background-color: var(--logo-yellow);
+  background-color: #EF5F5F;
+  height:95px;
 }
 .card:nth-of-type(3) .top {
-  background-color: var(--logo-red);
+  background-color: #53B8BB;
+  height:95px;
 }
 
 .card:first-of-type .circle i {
-  color: var(--logo-green);
+  color: black;
 }
 
 .card:nth-of-type(2) .circle i {
-  color: var(--logo-yellow);
+  color: black;
 }
 .card:nth-of-type(3) .circle i {
-  color: var(--logo-red);
+  color: black;
 }
 
 .card h3 {
@@ -154,7 +158,7 @@ section p {
 }
 .card:hover{
 	box-shadow: 2px 2px 2px #001010;
-	background-color: #6490b6;
+	background-color: #EDEDED;
 	color: black;
 	font-weight: 500;
 }
