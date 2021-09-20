@@ -1,3 +1,30 @@
+#somethingorother {
+	width: 800px ;
+  }
+  
+  @media screen and (max-width: 320px) {
+	/* comes into effect for screens less than or equal to 320 pixels */
+	#somethingorother {
+	  width: 120px ;
+	}
+  }
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+	/* comes into effect for screens between 321 and 480 pixels (inclusive) */
+	#somethingorother {
+	  width: 320px ;
+	}
+  }
+  @media screen and (min-width: 481px) {
+	/* comes into effect for screens larger than or equal to 481 pixels */
+	#somethingorother {
+	  width: 480px ;
+	}
+  }
+  
+
+@-ms-viewport {
+	width: device-width ;
+  }
 body,
 html {
     width: 100%;
@@ -389,66 +416,52 @@ h1 {
 	}
 	
 	/* end of header */
+section#opportunities {
+	padding: 1.5rem 4rem;
+}
+	  
+.heading {
+	margin-bottom: 8rem;
+	align-items: center;
+	margin-left: 36%;
+	font-size: 50px;
+	color:black;
+}
+	  
+.list {
+	display: flex;
+	justify-content: space-around;
+	margin: 3rem auto 4rem auto;
+	align-items: center;
+}
+	  
+.list .text-content {
+	display: inline-block;
+	width: 45%;
+	background-color: lightgray;
+	padding: 1rem 3rem;
+}
+	  
+.list .illustration {
+	width: 35%;
+	display: flex;
+	align-items: center;
+}
+	  
+.list .illustration img {
+	width: 100%;
+}
+	  
+.list h3,.list p {
+	text-align: left;
+	margin: 2rem 0;
+	width: 100%;
+}
+	  
+.list h3 {
+	font-size: 2.6rem;
+	margin-bottom: 0;
+}
+
 }
 /* end of min-width 1200px */
-
-/* footer */
-footer{
-   
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
-}
-.footer-content{
-    display: flex;
-    align-items:  center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; 
-}
-.social-icons{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-  
-}
-.social-icons li{
-    margin: 0 10px;
-}
-.social-icons a{
-    text-decoration: none;
-    color:  #fff;
-    font-size: large;
-}
-.social-icons a i{
-font-size: 1.1rem;
-transition: color .4s ease;
-}
-.social-icons a:hover i{
-    color: aqua;
-}
-.footer-bottom{
-    background: #111;
-    width: 100vw;
-padding: 20px 0;
-text-align: center;
-}
-.footer-bottom p{
-    font-size:  14px;
-    word-spacing:  2px;
-    text-transform: capitalize;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    
-    font-weight: 200;
-}
-
-/* end footer */
