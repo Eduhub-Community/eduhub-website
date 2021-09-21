@@ -100,27 +100,6 @@ hr {
   font-weight: 600;
 }
 
-/* .team-member-container > div:nth-child(n) img {
-  box-shadow: 0 0 10px 1px red, 0 0 0 10px inset black;
-  border: 1px solid red;
-}
-.team-member-container > div:nth-child(2n) img {
-  box-shadow: 0 0 10px 1px yellow, 0 0 10px inset black;
-  border: 1px solid yellow;
-}
-.team-member-container > div:nth-child(3n) img {
-  box-shadow: 0 0 10px 1px green;
-  border: 1px solid green;
-}
-.team-member-container > div:nth-child(4n) img {
-  box-shadow: 0 0 10px 1px blue;
-  border: 1px solid blue;
-} */
-/* .mentor-box img {
-  box-shadow: 0 0 10px 1px var(--logo-blue);
-  border: 1px solid var(--logo-blue);
-} */
-
 .member-box {
   transition: all 0.5s ease-out;
   padding: 15px 20px 15px 20px;
@@ -190,14 +169,7 @@ hr {
 }
 
 .hide-btn {
-  /* padding: 13px 50px;
-  font-size: 15px;
-  border-radius: 2px;
-  background-color: black;
-  color: white;
-  box-shadow: 0 0 2px inset white;
-  transition: all 0.2s linear;
-  border-radius: 10px; */
+ 
   display: inline-block;
   padding: 10px 30px;
   font-size: 15px;
@@ -217,19 +189,7 @@ hr {
 }
 
 @media screen and (min-width: 1307px) {
-  /* #web-team > div:nth-last-child(1) {
-    grid-column: 4/5;
-  }
-  #web-team > div:nth-last-child(2) {
-    grid-column: 3/4;
-  }
-  #web-team > div:nth-last-child(3) {
-    grid-column: 2/3;
-  }
-  #content-team > div:nth-last-child(1) {
-    grid-column: 3/4;
-  }
-} */
+
   #cp-btn {
     display: none;
   }
@@ -245,36 +205,7 @@ hr {
 }
 
 @media screen and (max-width: 1307px) and (min-width: 1033px) {
-  /* .team-member-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  #web-team > div:last-child {
-    grid-column: 2/4;
-  }
-  #android-team > div:last-child,
-  #core-team > div:last-child {
-    grid-column: 3/4;
-  }
-  #android-team > div:nth-last-child(2),
-  #core-team > div:nth-last-child(2) {
-    grid-column: 2/3;
-  }
-  #cp-team > div:last-child,
-  #graphics-team > div:last-child {
-    grid-column: 2/3;
-  }
-  #content-team > div:last-child {
-    grid-column: 3/4;
-  }
-  #content-team > div:nth-last-child(2) {
-    grid-column: 2/3;
-  }
-  #ML-team > div:last-child {
-    grid-column: 3/4;
-  }
-  #ML-team > div:nth-last-child(2) {
-    grid-column: 2/3;
-  } */
+ 
   #cp-btn{
     display: none;
   }
