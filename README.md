@@ -9,13 +9,13 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 # Hacktoberfest
 
-![Watch The Video](https://drive.google.com/file/d/1zEaxXelAv8wkCz0TOp1xow1-tV76ln6_/view?usp=sharing)
+![Watch The Video](https://media-exp1.licdn.com/dms/image/C5622AQH9A_Lm5rLgYw/feedshare-shrink_800/0/1632638756402?e=1635379200&v=beta&t=jlFYotmlITv4ZUOIpfCo5zQuFYW4ZwKACGI-oA9MHbQ)
 
 # Hacktoberfest Practice Pull Requests
 
 Repo for you to raise a Pull Request for practice.
 
-**Just add your name, Linkedin url, or other social media link on HTML file**
+**Just rais your issue if you want to upgrade other wise work on exsisting issues**
 
 ## How to contribute
 
@@ -34,13 +34,13 @@ Questions can be asked by raising an `Issue`.
 - Using git on your local machine. Do this to download the forked copy of this repo to your computer
 
 ```
-  git clone https://github.com/yourGithubUsername/Hacktoberfest_Practice_Contribution
+  git clone https://github.com/yourGithubUsername/upgrade-website
 ```
 
 - switch to the cloned folder. This can be done with Gitbash or the integrated terminal in the VSCode editor
 
 ```
-  cd Hacktoberfest_Practice_Contribution
+  cd upgrade-website
 ```
 
 - Make a new branch. Your name would make a good branch because it's unique
@@ -49,13 +49,11 @@ Questions can be asked by raising an `Issue`.
   git checkout -b <name of new branch>
 ```
 
-- Open the file `index.html`
-- Open images file and add your photo
+- Open the file `index.html` or `anything`
+- Open files and change 
 
-- #### Add your name linkedin or other url according to he code please read it carefully.
+- #### Add code carefully avoid marge conflict .
 
-- For example ,
-  `- <div class="contentBx"> <h4>Sahitya Roy</h4> <h5>Founder Of Eduhub community</h5> </div> <div class="sci"> <a href="https://linkedin.com/in/sahitya-roy-244b941a2/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://twitter.com/SahityaRoy07"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.youtube.com/channel/UCqXTIC8hmyigUtYGVykQsug"><i class="fa fa-youtube" aria-hidden="true"></i></a> </div> </div> </div>`
 
 - Stage your changes
 
@@ -103,14 +101,12 @@ or
 
 Hurray! You successfully made a contribution!
 
-<h1 align=center> Project Admin ❤️ </h1>
-<p align="center">
-  <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/72821604?v=4" width=150px height=150px /></a> 
+
     
 <p align="center">
-  <a target="_blank"href="https://www.linkedin.com/in/sahitya-roy/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a target="_blank"href="https://twitter.com/SahityaRoy07"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:sahitya.roy@uem.edu.in?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a target="_blank"href="https://www.linkedin.com/company/eduhub-community"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="mailto:eduhub.community@gmail.com?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://SahityaRoy.hashnode.dev/"><img src="https://img.shields.io/badge/hashnode-%27D1203.svg?&style=for-the-badge&logo=hashnode&logoColor=blue" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 	
@@ -119,8 +115,8 @@ Hurray! You successfully made a contribution!
 <p align="center">
   
 	
-<a href="https://github.com/SahityaRoy/E-Learning-freesite/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SahityaRoy/Hacktoberfest_Practice_Contribution" />
+<a href="https://github.com/Eduhub-Community/upgrade-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Eduhub-Community/upgrade-website" />
 </a>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
