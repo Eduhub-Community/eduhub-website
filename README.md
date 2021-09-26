@@ -1,6 +1,3 @@
-<p align="center">
-    <img alt="oss image" src="./imgs/zoss-logo.svg" height="200px" width="200px">
-</p>
 
 # Eduhub Community Website Update one 
 Hacktoberfest is a month long event where people are awarded for contributing to open source projects 🙌, and we're joining the party .Hosted by DigitalOcean for the 8th year in a row, Hacktoberfest encourages participation in giving back to the open source community by completing pull requests, participating in events, and donating to open source projects.
@@ -10,6 +7,12 @@ Hacktoberfest is a month long event where people are awarded for contributing to
 We have other repositories in the organisation you can contribute to. If you would like to join our GitHub organisation, raise an issue on this repo amd Create PR.
 
 ---
+# Join Our Community for Discussion 
+- [Join Our discord Server ](https://discord.gg/pdFu2waA3U)
+- [join our telegram](https://t.me/joinchat/0Y0nT-yXjGxmM2Vl)
+
+# Want to be a Mentor for hacktoberfest 
+- [Fill up this form](https://forms.gle/KaH9auwwkDzqYy547)
 
 # Hacktoberfest
 
