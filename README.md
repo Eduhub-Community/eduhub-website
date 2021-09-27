@@ -96,6 +96,9 @@ Hurray! You successfully made a contribution!
 </a>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
+</p>
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
-</p>
+
+
