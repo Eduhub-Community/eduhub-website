@@ -2,9 +2,9 @@
 # Eduhub Community Website Update one 
 Hacktoberfest is a month long event where people are awarded for contributing to open source projects 🙌, and we're joining the party .Hosted by DigitalOcean for the 8th year in a row, Hacktoberfest encourages participation in giving back to the open source community by completing pull requests, participating in events, and donating to open source projects.
 
-<b>This repo will be <u> partcipating </u> in the Hacktoberfest event, so rais issues and stay tuned with us for more .</b>
+<b>This repo will be <u> partcipating </u> in the Hacktoberfest event, so raise issues and stay tuned with us for more .</b>
 
-We have other repositories in the organisation you can contribute to. If you would like to join our GitHub organisation, raise an issue on this repo amd Create PR.
+We have other repositories in the organisation you can contribute to. If you would like to join our GitHub organisation, raise an issue on this repo and Create PR.
 
 ---
 # Join Our Community for Discussion 
@@ -22,95 +22,65 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 Repo for you to raise a Pull Request for practice.
 
-**Just rais your issue if you want to upgrade other wise work on exsisting issues**
-
-## How to contribute
-
-1. Fork the project
-2. Make any changes in your forked repo
-3. On this repo, click `Pull Requests` and raise a `Pull Request` selecting your fork on the right drop down
+**Just raise your issue if you want to upgrade other wise work on exsisting issues**
 
 Questions can be asked by raising an `Issue`.
 
-## How to clone repo and make changes locally
+## 📌Contributing Guidelines :
+**1.**  Fork [this](https://github.com/Eduhub-Community/UPGRADE-WEBSITE.git) repository.
 
+**2.**  Clone your forked copy of the project.
 ```
-  click on the clone button (green in colour). This gives you a copy of the project. Its now yours to play around with
+git clone --depth 1 https://github.com/<your_name>/UPGRADE-WEBSITE.git
 ```
-
-- Using git on your local machine. Do this to download the forked copy of this repo to your computer
-
+**3.** Navigate to the project directory :file_folder: .
 ```
-  git clone https://github.com/yourGithubUsername/upgrade-website
+cd UPGRADE-WEBSITE
 ```
-
-- switch to the cloned folder. This can be done with Gitbash or the integrated terminal in the VSCode editor
-
+**4.** Add a reference(remote) to the original repository.
 ```
-  cd upgrade-website
+git remote add upstream https://github.com/Eduhub-Community/UPGRADE-WEBSITE.git
 ```
-
-- Make a new branch. Your name would make a good branch because it's unique
-
+**5.** Check the remotes for this repository.
 ```
-  git checkout -b <name of new branch>
+git remote -v
 ```
-
-- Open the file `index.html` or `anything`
-- Open files and change 
-
-- #### Add code carefully avoid marge conflict .
-
-
-- Stage your changes
-
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 ```
-  git add index.html
+git pull upstream main
 ```
-
-or
-
+**7.** Create a new branch.
 ```
-  git add .
+git checkout -b <your_branch_name>
 ```
+**8.** Perfom your desired changes to the code base.
+<p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
-- Commit the changes
-
+**9.** Track your changes:heavy_check_mark: 
 ```
-  git commit -m "Add <your-github-username>"
+git add . 
 ```
-
-- Check the status of your repository
-
+**10.** Commit your changes .
 ```
-  git status
+git commit -m "Relevant message"
 ```
-
-- Pushing your repository to github
-
+**11.** Push the committed changes in your feature branch to your remote repo.
 ```
-  git push origin <name of your branch>
+git push -u origin <your_branch_name>
 ```
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
-or
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
 
-```
-  git branch -M main
-  git push -u origin main
-  git push origin main --force
-```
+**14.** Click on `Create Pull Request`.
 
-- Navigate to your fork, on the top of the files section you'll notice a new section containing, a contribute button!
-- Click on the contribute button, it will open a drop down, click the pull request button on the drop down
-  Note: A pull request allows your changes to be merged with the original project.
+**15.** Hurray ❗ You have created a PR to Eduhub-Community Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
-- Wait for your changes to be merged
 
 Hurray! You successfully made a contribution!
 
-
     
-<p align="center">
+<p>
   <a target="_blank"href="https://www.linkedin.com/company/eduhub-community"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
   <a href="mailto:eduhub.community@gmail.com?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -127,4 +97,6 @@ Hurray! You successfully made a contribution!
 </a>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
-
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+</p>
