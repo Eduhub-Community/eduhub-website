@@ -8,8 +8,8 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 ---
 # Join Our Community for Discussion 
-- [Join Our discord Server ](https://discord.gg/pdFu2waA3U)
-- [join our telegram](https://t.me/joinchat/0Y0nT-yXjGxmM2Vl)
+- [Join Our Discord Server ](https://discord.gg/pdFu2waA3U)
+- [Join our Telegram](https://t.me/joinchat/0Y0nT-yXjGxmM2Vl)
 
 # Want to be a Mentor for hacktoberfest 
 - [Fill up this form](https://forms.gle/KaH9auwwkDzqYy547)
@@ -31,7 +31,7 @@ Questions can be asked by raising an `Issue`.
 
 **2.**  Clone your forked copy of the project.
 ```
-git clone --depth 1 https://github.com/<your_name>/UPGRADE-WEBSITE.git
+git clone https://github.com/<your_name>/UPGRADE-WEBSITE.git
 ```
 **3.** Navigate to the project directory :file_folder: .
 ```
@@ -80,10 +80,9 @@ git push -u origin <your_branch_name>
 Hurray! You successfully made a contribution!
 
     
-<p>
+<p align="center">
   <a target="_blank"href="https://www.linkedin.com/company/eduhub-community"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-
-  <a href="mailto:eduhub.community@gmail.com?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="mailto:eduhub.community@gmail.com?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://SahityaRoy.hashnode.dev/"><img src="https://img.shields.io/badge/hashnode-%27D1203.svg?&style=for-the-badge&logo=hashnode&logoColor=blue" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 	
