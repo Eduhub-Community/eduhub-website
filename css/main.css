@@ -265,7 +265,15 @@ width: 8px;
 height: 8px;
 width: 8px;
 }
-
+.btn { 
+  border: none;
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px;
+  cursor: pointer; 
+  height:70px; 
+  width:25rem;
+}
 
 
 /*=========================================
