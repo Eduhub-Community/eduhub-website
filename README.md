@@ -13,6 +13,7 @@ We have other repositories in the organisation you can contribute to. If you wou
 <a  href="https://www.youtube.com/channel/UC9lHcqq-TOWCW_ee6fVwhrg" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
 <a  href="https://www.linkedin.com/in/rohan-k-2502/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/vaidhyanathan.sm/)
+[<img src = "https://img.shields.io/badge/discord-%23E4405F.svg?&style=for-the-badge&logo=discord&logoColor=white">](https://www.instagram.com/vaidhyanathan.sm/)
 <a  href="https://t.me/rohankulkarnichannel"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 
 </div>
