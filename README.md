@@ -12,8 +12,8 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 <a  href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
 <a  href="https://www.linkedin.com/company/eduhub-community" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-[<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">]()
-<a  href="https://t.me/rohankulkarnichannel"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+[<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://instagram.com/eduhub_community)
+<a  href="https://t.me/joinchat/0Y0nT-yXjGxmM2Vl"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 [<img src = "https://img.shields.io/badge/discord-%23E4405F.svg?&style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/pdFu2waA3U)
 
 
