@@ -281,6 +281,65 @@ Slider
 }
 
 /*=========================================
+Social Media links 
+==========================================*/
+.social{
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate(-290px, 0);
+}
+
+.social a{
+  color: #fff;
+  background: rgba(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  margin: 5px;
+  padding: 20px;
+  width: 337px;
+  text-align: right;
+  border-radius: 50px;
+  transition: 1s;
+  transition-property: transform;
+}
+
+.social a:hover{
+  transform: translate(140px, 0);
+  
+}
+
+.social i{
+  margin-left: 10px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.social a:nth-child(1) i{
+  color: #1DA0F0;
+}
+
+.social a:nth-child(2) i{
+  color: #F80000;
+}
+
+.social a:nth-child(3) i{
+  color: transparent;
+  background-image: linear-gradient(45deg, #FFDF9E, #E56969, #8A49A1);
+  -webkit-background-clip: text;
+  font-weight: 600;
+}
+
+.social a:nth-child(4) i{
+  color: #4ECCE8;
+}
+
+/*=========================================
 Features
 ==========================================*/
 
@@ -683,14 +742,14 @@ Contact Us
 ==========================================*/
 
 .footer {
-  background-color: #1ea78d;
-  border-top: 5px solid #062033;
+  background-color:#062033 ;
+  border-top: 5px solid #1ea78d;
   color: #fff;
-}
-
-.footer a:hover {
-  color: #062033;
-}
+  }
+  
+  .footer a:hover {
+  color: #1ea78d;
+  }
 
 .footer h6 {
   font-size: 14px;
