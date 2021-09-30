@@ -118,10 +118,10 @@ Hurray! You successfully made a contribution!
 <p align="center">
   <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/72821604?v=4" width=150px height=150px /></a> 
 	<p align="center">
-  <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/71958796?v=4" width=150px height=150px /></a> 
+  <a href="https://github.com/Anuradha0501"><img src="https://avatars.githubusercontent.com/u/71958796?v=4" width=150px height=150px /></a> 
 		
    <p align="center">
-  <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/72595335?v=4" width=150px height=150px /></a> 
+  <a href="https://github.com/neha030"><img src="https://avatars.githubusercontent.com/u/72595335?v=4" width=150px height=150px /></a> 
     
 	
 	
