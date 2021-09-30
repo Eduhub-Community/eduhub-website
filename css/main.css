@@ -683,14 +683,14 @@ Contact Us
 ==========================================*/
 
 .footer {
-  background-color: #1ea78d;
-  border-top: 5px solid #062033;
+  background-color:#062033 ;
+  border-top: 5px solid #1ea78d;
   color: #fff;
-}
-
-.footer a:hover {
-  color: #062033;
-}
+  }
+  
+  .footer a:hover {
+  color: #1ea78d;
+  }
 
 .footer h6 {
   font-size: 14px;
