@@ -91,8 +91,18 @@ Hurray! You successfully made a contribution!
 <p align="center">
   <a target="_blank"href="https://www.linkedin.com/company/eduhub-community"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
  <a href="mailto:eduhub.community@gmail.com?subject=Hello%20Harsh,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://SahityaRoy.hashnode.dev/"><img src="https://img.shields.io/badge/hashnode-%27D1203.svg?&style=for-the-badge&logo=hashnode&logoColor=blue" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
 </p>
+
+<h1 align=center> Project Mainteners ❤️ </h1>
+<p align="center">
+  <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/72821604?v=4" width=150px height=150px /></a> 
+	<p align="center">
+  <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/71958796?v=4" width=150px height=150px /></a> 
+		
+   <p align="center">
+  <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/72595335?v=4" width=150px height=150px /></a> 
+    
 	
 	
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
