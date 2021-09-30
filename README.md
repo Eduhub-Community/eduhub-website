@@ -38,12 +38,12 @@ Questions can be asked by raising an `Issue`.
 
 ## 📌Contributing Guidelines :
 
-**1.** Fork [this](https://github.com/Eduhub-Community/UPGRADE-WEBSITE.git) repository.
+**1.** Fork [this](https://github.com/Eduhub-Community/eduhub-website) repository.
 
 **2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_name>/UPGRADE-WEBSITE.git
+git clone https://github.com/<your-github-username>/eduhub-website.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
@@ -55,7 +55,7 @@ cd UPGRADE-WEBSITE
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/Eduhub-Community/UPGRADE-WEBSITE.git
+git remote add upstream https://github.com/Eduhub-Community/eduhub-website.git
 ```
 
 **5.** Check the remotes for this repository.
