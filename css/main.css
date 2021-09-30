@@ -445,72 +445,118 @@ line-height: 24px;
 /*=========================================
 Our Team Member
 ==========================================*/
-
-.member-thumb {
-width: 273px;
-position: relative;
-
+.team{
+  background-color: #f4f7f9;
+  
 }
-.member-thumb .overlay h5 {
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-margin: 10px 0;
+.section-team {
+	font-family: "Poppins", sans-serif;
+	padding: 80px 0;
+  
 }
 
-.member-thumb .overlay {
-font-size: 16px;
-padding: 20px;
-line-height: 24px;
+.section-team .header-section {
+	margin-bottom: 50px;
 }
 
-.team-member h4 {
-color: #062033;
-font-size: 18px;
-font-weight: 600;
-line-height: 24px;
-margin: 15px 0 8px;
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
 }
 
-
-.member-thumb:hover .overlay {
-cursor: pointer;
-opacity: 1;
-filter: alpha(opacity=100);
-
--webkit-transform: rotateY(0deg) scale(1,1);
-   -moz-transform: rotateY(0deg) scale(1,1);
-  -ms-transform: rotateY(0deg) scale(1,1);
-   -o-transform: rotateY(0deg) scale(1,1);
-      transform: rotateY(0deg) scale(1,1);
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
 }
 
-.team-member:hover h4 {
-color: #0eb493;
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #f3f3f3;
+	border-radius: 5px;
 }
 
-.team-member .social-links {
-margin-top: 24%;
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #38BFA6, #0FEB9E);
 }
 
-.team-member .social-links li a {
-background-color: #0d7c67;
-color: #fff;
-height: 42px;
-padding: 10px 0 0;
-width: 42px;
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
 }
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #38BFA6, #0FEB9E);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #38BFA6;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #38BFA6;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+.tm{
+  display: inline-flex;
+  margin-left: -70px;
+}
+.single-person{
+  width: 300px;
+  margin-left: 20px;
+  box-shadow: 0 14px 28px rgba(173, 173, 173, 0.25), 0 10px 10px rgba(129, 129, 129, 0.22);}
+
+
 a.button1{
    background-color:#1ea78d;
    display:inline-block;
-  padding:5px;
-  font-size:2rem;
+   padding:10px 20px;
+   font-size:16px;
    border:0.16em solid rgba(255,255,255,0);
-   border-radius:2em;
-   margin-top:15px;
-   font-family:'Roboto',sans-serif;
-   
-   font-weight:300;
+   border-radius:5px;
+   margin-top:55px;
+   font-family:'Roboto',sans-serif;   
    color:#FFFFFF;
    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
    text-align:center;
@@ -519,64 +565,6 @@ a.button1{
   
   
 
-
-
-/*=========================================
-Some fun facts
-==========================================*/
-
-#facts {
-background-image: url("../img/wallpaper.png");
-background-color: rgba(6,32,51,.8);
-background-attachment: fixed !important;
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 0;
-}
-
-.facts .devider:before,
-.facts .devider:after {
-color: #737C85;
-}
-
-.facts .devider i {
-color: #fff;
-}
-
-.parallax-overlay {
-background-color: rgba(6,32,51,.8);
-padding: 70px 0;
-}
-
-.counters-item {
-color: #fff;
-}
-
-.counters-item i {
-border: 1px solid #737C85;
-border-radius: 50%;
-color: #fff;
-display: inline-block;
-height: 120px;
-margin: 0 0 35px;
-padding: 40px 0 0;
-width: 120px;
-}
-
-.counters-item strong {
-display: block;
-font-size: 60px;
-font-weight: 600;
-line-height: 60px;
-}
-
-.counters-item p {
-font-size: 18px;
-line-height: 24px;
-margin-top: 15px;
-text-transform: uppercase;
-}
 
 
 /*=========================================
