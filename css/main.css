@@ -653,25 +653,22 @@ label.error {
   color: #cdd2d6;
   display: block;
   margin-bottom: 10px;
-}
-
-.footer-social li a i {
   transition: color 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
-.footer-social li:nth-child(1) a i:hover {
+.footer-social li:nth-child(1) a:hover {
   color: #00acee;
   transform: scale(1.2);
 }
-.footer-social li:nth-child(2) a i:hover {
+.footer-social li:nth-child(2) a:hover {
   color: #ff0000;
   transform: scale(1.2);
 }
-.footer-social li:nth-child(3) a i:hover {
+.footer-social li:nth-child(3) a:hover {
   color: #3b5998;
   transform: scale(1.2);
 }
-.footer-social li:nth-child(4) a i:hover {
+.footer-social li:nth-child(4) a:hover {
   color: #0077b5;
   transform: scale(1.2);
 }
