@@ -879,7 +879,13 @@ Contact Us
 .about-us p {
   line-height: 24px;
 }
-
+.footer-logo{
+  background-color: white;
+  height:150px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  zoom: 1.25;
+}
 .footer-single .subscribe {
   margin-bottom: 15px;
   position: relative;
