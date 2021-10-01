@@ -250,6 +250,14 @@ Slider
 .social-links li a:hover {
   color: #fff;
 }
+.social-button{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.social-button a{
+  padding: 5px 10px;
+}
 
 .carousel-indicators {
   bottom: 10px;
