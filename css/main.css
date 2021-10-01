@@ -933,8 +933,5 @@ Contact Us
   position: fixed;
   right: 25px;
   z-index: 9;
-  color: #000;
-}
-#back-top:hover{
-color: #1ea78d;
+  color:#1ea78d;
 }
