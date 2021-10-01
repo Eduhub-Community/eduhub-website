@@ -514,6 +514,13 @@ Our Team Member
   
 }
 
+.team-size{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 .section-team .header-section {
 	margin-bottom: 50px;
 }
