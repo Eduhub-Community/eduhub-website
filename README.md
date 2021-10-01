@@ -1,6 +1,6 @@
-# Eduhub Community Website Update one
-
-Hacktoberfest is a month long event where people are awarded for contributing to open source projects 🙌, and we're joining the party .Hosted by DigitalOcean for the 8th year in a row, Hacktoberfest encourages participation in giving back to the open source community by completing pull requests, participating in events, and donating to open source projects.
+# [Eduhub Community Website](https://eduhubcommunity.tech/eduhub-website/) 
+![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+[**Hacktoberfest**](https://hacktoberfest.digitalocean.com/) is a month long event where people are awarded for contributing to open source projects 🙌, and we're joining the party. Hosted by [**DigitalOcean**](https://www.digitalocean.com/) for the 8th year in a row, Hacktoberfest encourages participation in giving back to the open source community by completing pull requests, participating in events, and donating to open source projects.
 
 <b>This repo will be <u> partcipating </u> in the Hacktoberfest event, so raise issues and stay tuned with us for more .</b>
 
@@ -38,73 +38,67 @@ Questions can be asked by raising an `Issue`.
 
 ## 📌Contributing Guidelines :
 
-**1.** Fork [this](https://github.com/Eduhub-Community/UPGRADE-WEBSITE.git) repository.
+**1.** Fork [this](https://github.com/Eduhub-Community/eduhub-website) repository.
 
 **2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_name>/UPGRADE-WEBSITE.git
+git clone https://github.com/<your-github-username>/eduhub-website.git
 ```
 
-**3.** Navigate to the project directory :file_folder: .
+**3.** Add a reference(remote) to the original repository.
 
 ```
-cd UPGRADE-WEBSITE
+git remote add upstream https://github.com/Eduhub-Community/eduhub-website.git
 ```
 
-**4.** Add a reference(remote) to the original repository.
-
-```
-git remote add upstream https://github.com/Eduhub-Community/UPGRADE-WEBSITE.git
-```
-
-**5.** Check the remotes for this repository.
+**4.** Check the remotes for this repository.
 
 ```
 git remote -v
 ```
 
-**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+**5.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
 ```
 git pull upstream main
 ```
 
-**7.** Create a new branch.
+**6.** Create a new branch.
 
 ```
 git checkout -b <your_branch_name>
 ```
 
-**8.** Perfom your desired changes to the code base.
+**7.** Perfom your desired changes to the code base.
 
 <p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
-**9.** Track your changes:heavy_check_mark:
+**8.** Track your changes:heavy_check_mark:
 
 ```
 git add .
 ```
 
-**10.** Commit your changes .
+**9.** Commit your changes .
 
 ```
 git commit -m "Relevant message"
 ```
 
-**11.** Push the committed changes in your feature branch to your remote repo.
+**10.** Push the committed changes in your feature branch to your remote repo.
 
 ```
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+**11.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
+**12.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
 
-**14.** Click on `Create Pull Request`.
+**13.** Click on `Create Pull Request`.
 
-**15.** Hurray ❗ You have created a PR to Eduhub-Community Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+**14.** Hurray ❗ You have created a PR to Eduhub-Community Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
 Hurray! You successfully made a contribution!
 
