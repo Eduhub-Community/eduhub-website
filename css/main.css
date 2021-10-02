@@ -950,3 +950,31 @@ Contact Us
 #back-top:hover{
 color: #1ea78d;
 }
+.communityPartner__image{
+  height: 60px;
+  width: auto;
+}
+.communityPartner__box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.communityPartner__box1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.communityPartner__box2 h3{
+  padding-left: 5px;
+  font-weight: bold;
+}
+.communityPartner__image2{
+  height: 50px;
+  margin-left: 20px;
+}
+.communityPartner__box3{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: center;
+ 
+}
