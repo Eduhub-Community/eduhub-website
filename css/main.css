@@ -8,6 +8,7 @@ body {
   line-height: 21px;
   font-size: 13px;
   color: #6a737b;
+  overflow-x: hidden;
 }
 
 ol,
@@ -250,9 +251,21 @@ Slider
   margin: 0 6px;
   font-size: 30px; color: white;
 }
-
-.social-links li a:hover {
-  color: rgb(255, 45, 45);
+.social-links li a #yt:hover{
+  color: red;
+  transition: 0.4s;
+}
+.social-links li a #linkedin:hover{
+  color: blue;
+  transition: 0.4s;
+}
+.social-links li a #github:hover{
+  color: purple;
+  transition: 0.4s;
+}
+.social-links li a #insta:hover{
+  color: crimson;
+  transition: 0.4s;
 }
 .social-button{
   display: flex;
@@ -291,7 +304,12 @@ Slider
   height: 70px;
   width: 25rem;
 }
-
+.btn:hover{
+  color: white;
+  transform: scale(0.99);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transition: 0.4s ease-out;
+}
 /*=========================================
 Social Media links 
 ==========================================*/
@@ -621,6 +639,10 @@ a.button1{
    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
    text-align:center;
    transition: all 0.2s;
+  }
+  a.button1:hover{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   }
 
 .member-thumb {
