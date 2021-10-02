@@ -234,7 +234,7 @@ Slider
 }
 
 .social-links {
-  margin-top: 22%;
+  margin-top: 22px;
   margin-right: 3%;
   margin-bottom: 4%;
 }
@@ -248,10 +248,11 @@ Slider
   color: white;
   display: block;
   margin: 0 6px;
+  font-size: 30px; color: white;
 }
 
 .social-links li a:hover {
-  color: #0eb493;
+  color: rgb(255, 45, 45);
 }
 .social-button{
   display: flex;
@@ -284,7 +285,7 @@ Slider
 .btn {
   border: none;
   color: white;
-  padding: 12px 16px;
+  padding: 0px 16px;
   font-size: 16px;
   cursor: pointer;
   height: 70px;
@@ -440,10 +441,11 @@ Our Works
 
 .work-item {
   float: left;
-  width: 32%;
   position: relative;
   margin: 2px;
   border: 2px solid #1bc2a3;
+  max-width: 310px;
+  min-width: 265px;
 }
 
 .work-item > img {
@@ -561,7 +563,7 @@ Our Team Member
 }
 
 .section-team .single-person:hover .person-image {
-	padding: 12px;
+	  padding: 12px;
     border: 4px dashed #fff;
 }
 
@@ -570,32 +572,10 @@ Our Team Member
     border-radius: 50%;
 }
 
-.section-team .single-person .person-image .icon {
-	position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,50%);
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background: linear-gradient(to right, #38BFA6, #0FEB9E);
-    color: #fff;
-    border-radius: 50%;
-    font-size: 24px;
-}
-
-.section-team .single-person:hover .person-image .icon {
-	background: none;
-	background-color: #fff;
-	color: #38BFA6;
-}
-
 .section-team .single-person .person-info .full-name {
 	margin-bottom: 10px;
 	font-size: 28px;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .section-team .single-person .person-info .speciality {
@@ -609,14 +589,25 @@ Our Team Member
 	color: #fff;
 }
 .tm{
-  display: inline-flex;
-  margin-left: -70px;
+  display: table;
+  margin: 10px auto;
+}
+
+.col{
+  float: left;
 }
 .single-person{
   width: 300px;
   margin-left: 20px;
   box-shadow: 0 14px 28px rgba(173, 173, 173, 0.25), 0 10px 10px rgba(129, 129, 129, 0.22);}
 
+
+  @media only screen and (max-width: 480px) {
+    .section-team .single-person {
+      display:table;
+      margin-left: 50px;
+    }
+  }
 
 a.button1{
    background-color:#1ea78d;
@@ -687,25 +678,30 @@ a.button1{
 }
 a.button1 {
   background-color: #1ea78d;
-  display: inline-block;
-  padding: 5px;
-  font-size: 2rem;
-  border: 0.16em solid rgba(255, 255, 255, 0);
-  border-radius: 2em;
-  margin-top: 15px;
-  font-family: "Roboto", sans-serif;
-
-
-  font-weight: 300;
-  color: #ffffff;
-  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-  text-align: center;
-  transition: all 0.2s;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0.16em solid rgba(255,255,255,0);
+    border-radius: 5px;
+    margin-top: 55px;
+    font-family: 'Roboto',sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgb(0 0 0 / 35%);
+    text-align: center;
+    transition: all 0.2s;
 }
 
 /*=========================================
 Some fun facts
 ==========================================*/
+.project-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  width: 90%;
+  margin: auto;
+
+
+}
 
 #facts {
   background-image: url("../img/wallpaper.png");
@@ -948,4 +944,32 @@ Contact Us
 }
 #back-top:hover{
 color: #1ea78d;
+}
+.communityPartner__image{
+  height: 60px;
+  width: auto;
+}
+.communityPartner__box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.communityPartner__box1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.communityPartner__box2 h3{
+  padding-left: 5px;
+  font-weight: bold;
+}
+.communityPartner__image2{
+  height: 50px;
+  margin-left: 20px;
+}
+.communityPartner__box3{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: center;
+ 
 }
