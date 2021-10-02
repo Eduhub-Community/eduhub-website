@@ -441,10 +441,11 @@ Our Works
 
 .work-item {
   float: left;
-  width: 32%;
   position: relative;
   margin: 2px;
   border: 2px solid #1bc2a3;
+  max-width: 310px;
+  min-width: 265px;
 }
 
 .work-item > img {
@@ -693,6 +694,14 @@ a.button1 {
 /*=========================================
 Some fun facts
 ==========================================*/
+.project-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  width: 90%;
+  margin: auto;
+
+
+}
 
 #facts {
   background-image: url("../img/wallpaper.png");
