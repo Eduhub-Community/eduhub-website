@@ -562,7 +562,7 @@ Our Team Member
 }
 
 .section-team .single-person:hover .person-image {
-	padding: 12px;
+	  padding: 12px;
     border: 4px dashed #fff;
 }
 
@@ -571,32 +571,10 @@ Our Team Member
     border-radius: 50%;
 }
 
-.section-team .single-person .person-image .icon {
-	position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,50%);
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background: linear-gradient(to right, #38BFA6, #0FEB9E);
-    color: #fff;
-    border-radius: 50%;
-    font-size: 24px;
-}
-
-.section-team .single-person:hover .person-image .icon {
-	background: none;
-	background-color: #fff;
-	color: #38BFA6;
-}
-
 .section-team .single-person .person-info .full-name {
 	margin-bottom: 10px;
 	font-size: 28px;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .section-team .single-person .person-info .speciality {
@@ -610,14 +588,25 @@ Our Team Member
 	color: #fff;
 }
 .tm{
-  display: inline-flex;
-  margin-left: -70px;
+  display: table;
+  margin: 10px auto;
+}
+
+.col{
+  float: left;
 }
 .single-person{
   width: 300px;
   margin-left: 20px;
   box-shadow: 0 14px 28px rgba(173, 173, 173, 0.25), 0 10px 10px rgba(129, 129, 129, 0.22);}
 
+
+  @media only screen and (max-width: 480px) {
+    .section-team .single-person {
+      display:table;
+      margin-left: 50px;
+    }
+  }
 
 a.button1{
    background-color:#1ea78d;
