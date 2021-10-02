@@ -248,10 +248,11 @@ Slider
   color: white;
   display: block;
   margin: 0 6px;
+  font-size: 30px; color: white;
 }
 
 .social-links li a:hover {
-  color: #0eb493;
+  color: rgb(255, 45, 45);
 }
 .social-button{
   display: flex;
