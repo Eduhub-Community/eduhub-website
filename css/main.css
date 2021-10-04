@@ -248,42 +248,44 @@ Slider
   color: white;
   display: block;
   margin: 0 6px;
-  font-size: 30px; color: white;
+  font-size: 30px;
+  color: white;
 }
 
 .social-links li a:hover {
   color: rgb(255, 45, 45);
 }
-.social-button{
+.social-button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.social-button a{
+.social-button a {
   padding: 5px 10px;
 }
 
 /* whatsapp button changes */
 
 .buttonNewWhatsapp {
-  background: #1aab8a;
-  color: #fff;
+  background: #fff;
+  color: #1aab8a;
   border: none;
   position: relative;
   height: 60px;
   font-size: 1.6em;
   padding: 0 2em;
   cursor: pointer;
-  transition: 800ms ease all;
+  transition: 1s ease all;
   outline: none;
   border-radius: 50px;
 }
 
 .buttonNewWhatsapp:hover {
   background: #fff;
+  border: 10px solid #1aab8a;
   color: #1aab8a;
 }
-.buttonNewWhatsapp:before,
+/* .buttonNewWhatsapp:before,
 buttonNewWhatsapp:after {
   content: "";
   position: absolute;
@@ -304,28 +306,32 @@ buttonNewWhatsapp:after {
 buttonNew:hover:after {
   width: 89%;
   transition: 800ms ease all;
-}
+} */
 
 /* telegram button changes */
 .buttonNewTele {
-  background: #7289d9;
-  color: #fff;
+  background: #fff;
+  color: #7289d9;
   border: none;
   position: relative;
   height: 60px;
   font-size: 1.6em;
   padding: 0 2em;
   cursor: pointer;
-  transition: 800ms ease all;
+  transition: 1s ease all;
   outline: none;
   border-radius: 50px;
 }
 
 .buttonNewTele:hover {
-  background: #fff;
+  border: 10px solid #7289d9;
   color: #7289d9;
 }
-.buttonNewTele:before,
+.buttonNewTele img {
+  height: 35px;
+  width: 35px;
+}
+/* .buttonNewTele:before,
 buttonNewWhatsapp:after {
   content: "";
   position: absolute;
@@ -335,13 +341,13 @@ buttonNewWhatsapp:after {
   width: 0;
   background: #7289d9;
   transition: 400ms ease all;
-}
-.buttonNewTele:after {
+} */
+/* .buttonNewTele:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
-}
+} */
 .buttonNewTele:hover:before,
 buttonNewTele:hover:after {
   width: 89%;
@@ -351,8 +357,8 @@ buttonNewTele:hover:after {
 /* discord button changes */
 
 .buttonNewDis {
-  background: #7289d9;
-  color: #fff;
+  background: #fff;
+  color: #2ca5e0;
   border: none;
   position: relative;
   height: 60px;
@@ -366,9 +372,10 @@ buttonNewTele:hover:after {
 
 .buttonNewDis:hover {
   background: #fff;
+  border: 10px solid #2ca5e0;
   color: #7289d9;
 }
-.buttonNewDis:before,
+/* .buttonNewDis:before,
 buttonNewDis:after {
   content: "";
   position: absolute;
@@ -389,8 +396,7 @@ buttonNewDis:after {
 buttonNewDis:hover:after {
   width: 89%;
   transition: 800ms ease all;
-}
-
+} */
 
 .carousel-indicators {
   bottom: 10px;
@@ -424,7 +430,7 @@ buttonNewDis:hover:after {
 /*=========================================
 Social Media links 
 ==========================================*/
-.social{
+.social {
   position: fixed;
   height: 100vh;
   display: flex;
@@ -433,7 +439,7 @@ Social Media links
   transform: translate(-290px, 0);
 }
 
-.social a{
+.social a {
   color: #fff;
   background: rgba(0, 0, 0);
   font-size: 20px;
@@ -449,35 +455,34 @@ Social Media links
   transition-property: transform;
 }
 
-.social a:hover{
+.social a:hover {
   transform: translate(140px, 0);
-  
 }
 
-.social i{
+.social i {
   margin-left: 10px;
   font-size: 30px;
   width: 30px;
   height: 30px;
 }
 
-.social a:nth-child(1) i{
-  color: #1DA0F0;
+.social a:nth-child(1) i {
+  color: #1da0f0;
 }
 
-.social a:nth-child(2) i{
-  color: #F80000;
+.social a:nth-child(2) i {
+  color: #f80000;
 }
 
-.social a:nth-child(3) i{
+.social a:nth-child(3) i {
   color: transparent;
-  background-image: linear-gradient(45deg, #FFDF9E, #E56969, #8A49A1);
+  background-image: linear-gradient(45deg, #ffdf9e, #e56969, #8a49a1);
   -webkit-background-clip: text;
   font-weight: 600;
 }
 
-.social a:nth-child(4) i{
-  color: #4ECCE8;
+.social a:nth-child(4) i {
+  color: #4ecce8;
 }
 
 /*=========================================
@@ -646,112 +651,111 @@ Our Works
 /*=========================================
 Our Team Member
 ==========================================*/
-.team{
+.team {
   background-color: #f4f7f9;
-  
 }
 .section-team {
-	font-family: "Poppins", sans-serif;
-	padding: 80px 0;
-  
+  font-family: "Poppins", sans-serif;
+  padding: 80px 0;
 }
 
 .section-team .header-section {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-team .header-section .small-title {
-    margin-bottom: 25px;
-	font-size: 16px;
-    font-weight: 500;
-    color: #3e64ff;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3e64ff;
 }
 
 .section-team .header-section .title {
-    font-weight: 700;
-    font-size: 45px;
+  font-weight: 700;
+  font-size: 45px;
 }
 
 .section-team .single-person {
-	margin-top: 30px;
-	padding: 30px;
-	background-color: #f3f3f3;
-	border-radius: 5px;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
 }
 
 .section-team .single-person:hover {
-	background: linear-gradient(to right, #38BFA6, #0FEB9E);
+  background: linear-gradient(to right, #38bfa6, #0feb9e);
 }
 
 .section-team .single-person .person-image {
-    position: relative;
-    margin-bottom: 50px;
-    border-radius: 50%;
-    border: 4px dashed transparent;
-    transition: padding .3s;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  border: 4px dashed transparent;
+  transition: padding 0.3s;
 }
 
 .section-team .single-person:hover .person-image {
-	  padding: 12px;
-    border: 4px dashed #fff;
+  padding: 12px;
+  border: 4px dashed #fff;
 }
 
 .section-team .single-person .person-image img {
-	width: 100%;
-    border-radius: 50%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .section-team .single-person .person-info .full-name {
-	margin-bottom: 10px;
-	font-size: 28px;
+  margin-bottom: 10px;
+  font-size: 28px;
   font-weight: 700;
 }
 
 .section-team .single-person .person-info .speciality {
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #38BFA6;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #38bfa6;
 }
 
 .section-team .single-person:hover .full-name,
 .section-team .single-person:hover .speciality {
-	color: #fff;
+  color: #fff;
 }
-.tm{
+.tm {
   display: table;
   margin: 10px auto;
 }
 
-.col{
+.col {
   float: left;
 }
-.single-person{
+.single-person {
   width: 300px;
   margin-left: 20px;
-  box-shadow: 0 14px 28px rgba(173, 173, 173, 0.25), 0 10px 10px rgba(129, 129, 129, 0.22);}
+  box-shadow: 0 14px 28px rgba(173, 173, 173, 0.25),
+    0 10px 10px rgba(129, 129, 129, 0.22);
+}
 
-
-  @media only screen and (max-width: 480px) {
-    .section-team .single-person {
-      display:table;
-      margin-left: 50px;
-    }
+@media only screen and (max-width: 480px) {
+  .section-team .single-person {
+    display: table;
+    margin-left: 50px;
   }
+}
 
-a.button1{
-   background-color:#1ea78d;
-   display:inline-block;
-   padding:10px 20px;
-   font-size:16px;
-   border:0.16em solid rgba(255,255,255,0);
-   border-radius:5px;
-   margin-top:55px;
-   font-family:'Roboto',sans-serif;   
-   color:#FFFFFF;
-   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-   text-align:center;
-   transition: all 0.2s;
-  }
+a.button1 {
+  background-color: #1ea78d;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  margin-top: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
 
 .member-thumb {
   width: 273px;
@@ -807,29 +811,27 @@ a.button1{
 }
 a.button1 {
   background-color: #1ea78d;
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: 0.16em solid rgba(255,255,255,0);
-    border-radius: 5px;
-    margin-top: 55px;
-    font-family: 'Roboto',sans-serif;
-    color: #FFFFFF;
-    text-shadow: 0 0.04em 0.04em rgb(0 0 0 / 35%);
-    text-align: center;
-    transition: all 0.2s;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  margin-top: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgb(0 0 0 / 35%);
+  text-align: center;
+  transition: all 0.2s;
 }
 
 /*=========================================
 Some fun facts
 ==========================================*/
-.project-wrapper{
+.project-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   width: 90%;
   margin: auto;
-
-
 }
 
 #facts {
@@ -996,14 +998,14 @@ Contact Us
 ==========================================*/
 
 .footer {
-  background-color:#062033 ;
+  background-color: #062033;
   border-top: 5px solid #1ea78d;
   color: #fff;
-  }
-  
-  .footer a:hover {
+}
+
+.footer a:hover {
   color: #1ea78d;
-  }
+}
 
 .footer h6 {
   font-size: 14px;
@@ -1071,34 +1073,33 @@ Contact Us
   z-index: 9;
   color: #000;
 }
-#back-top:hover{
-color: #1ea78d;
+#back-top:hover {
+  color: #1ea78d;
 }
-.communityPartner__image{
+.communityPartner__image {
   height: 60px;
   width: auto;
 }
-.communityPartner__box2{
+.communityPartner__box2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.communityPartner__box1{
+.communityPartner__box1 {
   display: flex;
   justify-content: space-evenly;
 }
-.communityPartner__box2 h3{
+.communityPartner__box2 h3 {
   padding-left: 5px;
   font-weight: bold;
 }
-.communityPartner__image2{
+.communityPartner__image2 {
   height: 50px;
   margin-left: 20px;
 }
-.communityPartner__box3{
+.communityPartner__box3 {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
   justify-content: center;
- 
 }
