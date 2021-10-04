@@ -251,9 +251,22 @@ Slider
   font-size: 30px; color: white;
 }
 
-.social-links li a:hover {
-  color: rgb(255, 45, 45);
+.social-links li a.youtube-link:hover {
+  color: #FF0000;
 }
+
+.social-links li a.linkedin-link:hover {
+  color: #0A66C2;
+}
+
+.social-links li a.github-link:hover {
+  color: #171515;
+}
+
+.social-links li a.instagram-link:hover {
+  color: #8F3BBA;
+}
+
 .social-button{
   display: flex;
   justify-content: center;
