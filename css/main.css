@@ -454,6 +454,7 @@ Social Media links
   
 }
 
+
 .social i{
   margin-left: 10px;
   font-size: 30px;
@@ -1101,4 +1102,46 @@ color: #1ea78d;
   row-gap: 20px;
   justify-content: center;
  
+}
+
+/* =================================== */
+/*	Icon Style 
+/* =================================== */
+
+/* .fa-facebook-f:before, .fa-facebook:hover{
+
+} */
+
+#facebook:hover{
+  background-color: #3b5998;
+  color: white !important;
+}
+
+.social a:nth-child(1) i {
+  color: white !important;
+}
+
+.social a:nth-child(2) i {
+  color: white;
+}
+.social a:nth-child(3) i {
+  color: white;
+}
+.social a:nth-child(4) i {
+  color: white;
+}
+
+#youtube:hover{
+  background-color: #C4302B;
+  color: white !important;
+}
+
+#instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: white;
+}
+
+#lingkedin:hover{
+  background-color: #2867B2;
+  color: white;
 }

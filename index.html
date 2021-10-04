@@ -34,20 +34,19 @@
 	<link rel="stylesheet" href="css/media-queries.css">
 	<!-- testimonial-section -->
 	<link rel="stylesheet" href="css/testimonial.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<!-- Blog Posts CSS -->
-	<link rel="stylesheet" href="css/blogPosts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 	<!-- Modernizer Script for old Browsers -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-<link rel="manifest" href="favicon_io/site.webmanifest">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="favicon_io/site.webmanifest">
 
 </head>
 
@@ -87,7 +86,7 @@
 					<li class="current"><a href="#body">Home</a></li>
 					<li><a href="#features">Aim</a></li>
 					<li><a href="#works">Events</a></li>
-					<li><a href="https://eduhubcommunity.tech/eduhub-website/1.0/TeamPage.html">Team</a></li>
+					<li><a href="#" onclick="goto('')">Team</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -102,18 +101,21 @@
 
 
 
-<!--
+	<!--
         Socail media slider
         ==================================== -->
 
-		<div class="social">
-			<a href="https://www.facebook.com/eduhubcommunity" target="blank">Facebook <i class="fa fa-facebook"></i></a>
-			<a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" target="blank">Youtube <i class="fa fa-youtube"></i></a>
-			<a href="https://www.instagram.com/eduhub_community/" target="blank">Instagram <i class="fa fa-instagram"></i></a>
-			<a href="https://www.linkedin.com/company/eduhub-community" target="blank">Linkedin <i class="fa fa-linkedin"></i></a>
-		</div>
+	<div class="social">
+		<a id="facebook" href="https://www.facebook.com/eduhubcommunity" target="blank">Facebook <i class="fa fa-facebook"></i></a>
+		<a id="youtube" href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" target="blank">Youtube <i
+				class="fa fa-youtube"></i></a>
+		<a id="instagram" href="https://www.instagram.com/eduhub_community/" target="blank">Instagram <i
+				class="fa fa-instagram"></i></a>
+		<a id="lingkedin" href="https://www.linkedin.com/company/eduhub-community" target="blank">Linkedin <i
+				class="fa fa-linkedin"></i></a>
+	</div>
 
-<!--
+	<!--
         End Socail media slider
         ==================================== -->
 
@@ -133,14 +135,18 @@
 					<h3 data-wow-duration="1000ms" class="wow slideInLeft animated">Let's Take<span class="color">
 							You</span> forward.</h3>
 
-<ul class="social-links text-center">
-						<li><a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ"><i class="fa fa-youtube"></i></a></li>
-						<li><a href="https://www.linkedin.com/company/eduhub-community"><i class="fa fa-linkedin fa-lg"></i></a></li>
+					<ul class="social-links text-center">
+						<li><a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ"><i
+									class="fa fa-youtube"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/eduhub-community"><i
+									class="fa fa-linkedin fa-lg"></i></a></li>
 						<li><a href=""><i class="fa fa-github fa-lg"></i></a></li>
-						<li><a href="https://www.instagram.com/eduhub_community/"><i class="fa fa-instagram fa-lg"></i></a></li>
-					</ul> 
+						<li><a href="https://www.instagram.com/eduhub_community/"><i
+									class="fa fa-instagram fa-lg"></i></a></li>
+					</ul>
 					<br>
 					<h4><b>Building India's Largest Student Community 🚀</b></h4><br><br>
+
 				
 					<!-- buttons -->
 				       <div class="social-button">
@@ -161,6 +167,7 @@
 				</div>
 				</div>
 			</div>
+		</div>
 
 
 		</div>
@@ -391,7 +398,7 @@
 							Functional Tester intern at DigiLocker.</p>
 					</figcaption>
 				</figure>
-				
+
 				<figure class="mix work-item photography">
 					<img src="img/works/event-12.jpeg" alt="">
 					<figcaption class="overlay">
@@ -414,116 +421,136 @@
         Testimonials
         ==================================== -->
 
-		<section class="testimonial">
-			<div class="container">
-				<div class="section-title">
-					<h2>WHAT DOES THE COMMUNITY SAY ABOUT US?</h2>
-				</div>
+	<section class="testimonial">
+		<div class="container">
+			<div class="section-title">
+				<h2>WHAT DOES THE COMMUNITY SAY ABOUT US?</h2>
 			</div>
-			<div class="testimonials-carousel-wrap">
-				<div class="testimonials-carousel">
-					<div class="swiper-container">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide">
-								<div class="testi-item">
-									<div class="para"><i class="fa fa-quote-left quote"></i>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio laboriosam a inventore?</p>
-										<br><br><br></div>
-									<div class="content">
-										<div class="image">
-											<img src="img/team/Amar.jpg" alt="XYZ">
-										</div>
-										<div class="info">
-											<div class="name">Amar</div>
-											<div class="job">Designer | Developer</div>
-										</div>
+		</div>
+		<div class="testimonials-carousel-wrap">
+			<div class="testimonials-carousel">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="testi-item">
+								<div class="para"><i class="fa fa-quote-left quote"></i>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae
+										qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio
+										laboriosam a inventore?</p>
+									<br><br><br>
+								</div>
+								<div class="content">
+									<div class="image">
+										<img src="img/team/Amar.jpg" alt="XYZ">
+									</div>
+									<div class="info">
+										<div class="name">Amar</div>
+										<div class="job">Designer | Developer</div>
 									</div>
 								</div>
 							</div>
-		
-							<!--second--->
-							<div class="swiper-slide">
-								<div class="testi-item">
-									<div class="para"><i class="fa fa-quote-left quote"></i>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio laboriosam a inventore?</p>
-										<br><br><br></div>
-									<div class="content">
-										<div class="image">
-											<img src="img/team/Amar.jpg" alt="XYZ">
-										</div>
-										<div class="info">
-											<div class="name">Amar</div>
-											<div class="job">Designer | Developer</div>
-										</div>
-									</div> 
-								</div>
-							</div>
-							<!--third-->
-		
-							<div class="swiper-slide">
-								<div class="testi-item">
-									<div class="para"><i class="fa fa-quote-left quote"></i>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio laboriosam a inventore?</p>
-										<br><br><br></div>
-									<div class="content">
-										<div class="image">
-											<img src="img/team/Amar.jpg" alt="XYZ">
-										</div>
-										<div class="info">
-											<div class="name">Amar</div>
-											<div class="job">Designer | Developer</div>
-										</div>
-									</div>
-								</div>
-							</div>
-		
-							<!--fourth-->
-							<div class="swiper-slide">
-								<div class="testi-item">
-									<div class="para"><i class="fa fa-quote-left quote"></i>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio laboriosam a inventore?</p>
-										<br><br><br></div>
-									<div class="content">
-										<div class="image">
-											<img src="img/team/Amar.jpg" alt="XYZ">
-										</div>
-										<div class="info">
-											<div class="name">Amar</div>
-											<div class="job">Designer | Developer</div>
-										</div>
-									</div>
-								</div>
-							</div>
-		
-							<!--fifth-->
-							<div class="swiper-slide">
-								<div class="testi-item">
-									<div class="para"><i class="fa fa-quote-left quote"></i>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio laboriosam a inventore?</p>
-										<br><br><br></div>
-									<div class="content">
-										<div class="image">
-											<img src="img/team/Amar.jpg" alt="XYZ">
-										</div>
-										<div class="info">
-											<div class="name">Amar</div>
-											<div class="job">Designer | Developer</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--testi end-->
-		
 						</div>
+
+						<!--second--->
+						<div class="swiper-slide">
+							<div class="testi-item">
+								<div class="para"><i class="fa fa-quote-left quote"></i>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae
+										qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio
+										laboriosam a inventore?</p>
+									<br><br><br>
+								</div>
+								<div class="content">
+									<div class="image">
+										<img src="img/team/Amar.jpg" alt="XYZ">
+									</div>
+									<div class="info">
+										<div class="name">Amar</div>
+										<div class="job">Designer | Developer</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--third-->
+
+						<div class="swiper-slide">
+							<div class="testi-item">
+								<div class="para"><i class="fa fa-quote-left quote"></i>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae
+										qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio
+										laboriosam a inventore?</p>
+									<br><br><br>
+								</div>
+								<div class="content">
+									<div class="image">
+										<img src="img/team/Amar.jpg" alt="XYZ">
+									</div>
+									<div class="info">
+										<div class="name">Amar</div>
+										<div class="job">Designer | Developer</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--fourth-->
+						<div class="swiper-slide">
+							<div class="testi-item">
+								<div class="para"><i class="fa fa-quote-left quote"></i>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae
+										qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio
+										laboriosam a inventore?</p>
+									<br><br><br>
+								</div>
+								<div class="content">
+									<div class="image">
+										<img src="img/team/Amar.jpg" alt="XYZ">
+									</div>
+									<div class="info">
+										<div class="name">Amar</div>
+										<div class="job">Designer | Developer</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--fifth-->
+						<div class="swiper-slide">
+							<div class="testi-item">
+								<div class="para"><i class="fa fa-quote-left quote"></i>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Animi est itaque magnam modi repellat recusandae
+										qui nisi ullam debitis illo ut numquam, eligendi saepe non nesciunt odio
+										laboriosam a inventore?</p>
+									<br><br><br>
+								</div>
+								<div class="content">
+									<div class="image">
+										<img src="img/team/Amar.jpg" alt="XYZ">
+									</div>
+									<div class="info">
+										<div class="name">Amar</div>
+										<div class="job">Designer | Developer</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--testi end-->
+
 					</div>
 				</div>
-		
-				<div class="tc-pagination"></div>
 			</div>
-		</section>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
-  		<script src="js/testimonial.js"></script>
+
+			<div class="tc-pagination"></div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+	<script src="js/testimonial.js"></script>
 
 	<!--
         End Testimonials
@@ -535,84 +562,84 @@
         ==================================== -->
 
 	<section class="section-team team">
-			<div class="container">
-				<!-- Start Header Section -->
-				<div class="row justify-content-center text-center">
-					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
-						<h2>Meet Our Team</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
-	
-					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
-						<p>Teamwork is the ability to work together toward a common vision</p>
-					</div>
+		<div class="container">
+			<!-- Start Header Section -->
+			<div class="row justify-content-center text-center">
+				<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+					<h2>Meet Our Team</h2>
+					<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
 				</div>
-				</div>
-				<!-- / End Header Section -->
-				<div class="tm row row-cols-4">
-					<!-- Start Single Person -->
-					<div class="col">
-						<div class="single-person">
-							<div class="person-image">
-								<img src="./img/team/Priya.jpeg" alt="">
-								
-							</div>
-							<div class="person-info">
-								<h3 class="full-name">Priya Chandak</h3>
-								<span class="speciality">Founder</span>
-							</div>
-						</div>
-					</div>
-					<!-- / End Single Person -->
-					<!-- Start Single Person -->
-					<div class="col">
-						<div class="single-person">
-							<div class="person-image">
-								<img src="./img/team/Sahitya.jpeg" alt="">
-								
-							</div>
-							<div class="person-info">
-								<h3 class="full-name">Sahitya Roy</h3>
-								<span class="speciality">Founder</span>
-							</div>
-						</div>
-					</div>
-					<!-- / End Single Person -->
-					<!-- Start Single Person -->
-					<div class="col">
-						<div class="single-person">
-							<div class="person-image">
-								<img src="./img/team/Anuradha.jpg" alt="">
-								
-							</div>
-							<div class="person-info">
-								<h3 class="full-name">Anuradha Jadon</h3>
-								<span class="speciality">Community Manager
-								</span>
-							</div>
-						</div>
-					</div>
-					<!-- / End Single Person -->
-					<!-- Start Single Person -->
-					<div class="col">
-						<div class="single-person">
-							<div class="person-image">
-								<img src="./img/team/Deepak.jpeg" alt="">
-								
-							</div>
-							<div class="person-info">
-								<h3 class="full-name">Deepak Verma</h3>
-								<span class="speciality">Web Developer Lead</span>
-							</div>
-						</div>
-					</div>
-					<!-- / End Single Person -->
+
+				<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+					<p>Teamwork is the ability to work together toward a common vision</p>
 				</div>
 			</div>
-			</div>
-			<div class="row text-center ">
-				<a href="./1.0/TeamPage.html" class="button1">Know More</a>
+		</div>
+		<!-- / End Header Section -->
+		<div class="tm row row-cols-4">
+			<!-- Start Single Person -->
+			<div class="col">
+				<div class="single-person">
+					<div class="person-image">
+						<img src="./img/team/Priya.jpeg" alt="">
+
+					</div>
+					<div class="person-info">
+						<h3 class="full-name">Priya Chandak</h3>
+						<span class="speciality">Founder</span>
+					</div>
 				</div>
+			</div>
+			<!-- / End Single Person -->
+			<!-- Start Single Person -->
+			<div class="col">
+				<div class="single-person">
+					<div class="person-image">
+						<img src="./img/team/Sahitya.jpeg" alt="">
+
+					</div>
+					<div class="person-info">
+						<h3 class="full-name">Sahitya Roy</h3>
+						<span class="speciality">Founder</span>
+					</div>
+				</div>
+			</div>
+			<!-- / End Single Person -->
+			<!-- Start Single Person -->
+			<div class="col">
+				<div class="single-person">
+					<div class="person-image">
+						<img src="./img/team/Anuradha.jpg" alt="">
+
+					</div>
+					<div class="person-info">
+						<h3 class="full-name">Anuradha Jadon</h3>
+						<span class="speciality">Community Manager
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- / End Single Person -->
+			<!-- Start Single Person -->
+			<div class="col">
+				<div class="single-person">
+					<div class="person-image">
+						<img src="./img/team/Deepak.jpeg" alt="">
+
+					</div>
+					<div class="person-info">
+						<h3 class="full-name">Deepak Verma</h3>
+						<span class="speciality">Web Developer Lead</span>
+					</div>
+				</div>
+			</div>
+			<!-- / End Single Person -->
+		</div>
+		</div>
+		</div>
+		<div class="row text-center ">
+			<a href="./1.0/TeamPage.html" class="button1">Know More</a>
+		</div>
 		</div>
 	</section>
 
@@ -722,79 +749,81 @@ Get expert guidance with career, Open Source, and internships, jobs around the w
         End Blog Posts
         ==================================== -->
 
-<!--
+	<!--
         Community partner
         ==================================== -->
 
-<section id="communityPartner" class="communityPartner">
-	<div class="container">
-		<div class="row mb50">
+	<section id="communityPartner" class="communityPartner">
+		<div class="container">
+			<div class="row mb50">
 
-			<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-				<h2>OUR COMMUNITY PARTNERS</h2>
-				<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+				<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+					<h2>OUR COMMUNITY PARTNERS</h2>
+					<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+				</div>
+				<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12"></div>
+				<div class="communityPartner__box1 col-lg-4 col-md-3 col-sm-4 col-xs-12  wow fadeInLeft animated"
+					data-wow-duration="500ms">
+					<div class="communityPartner__box2 ">
+						<img src="./img/CommunityPartners/givemycertificate.png" class="communityPartner__image "
+							alt="">
+
+					</div>
+					<div class="communityPartner__box2 ">
+						<img src="./img/CommunityPartners/dataprotocol.jpeg" class="communityPartner__image " alt="">
+
+
+					</div>
+				</div>
 			</div>
-			<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12"></div>
-			<div class="communityPartner__box1 col-lg-4 col-md-3 col-sm-4 col-xs-12  wow fadeInLeft animated" data-wow-duration="500ms">
-				<div class="communityPartner__box2 ">
-			<img src="./img/CommunityPartners/givemycertificate.png" class="communityPartner__image " alt="">
-		       
-		       </div>
-			   <div class="communityPartner__box2 ">
-				<img src="./img/CommunityPartners/dataprotocol.jpeg" class="communityPartner__image " alt="">
-				  
-	
-				   </div>
-			</div>
-       </div>
 
 
 
-	   <!--
+			<!--
        End  Community partner
         ==================================== -->
 
 
-<!--
+			<!--
       Student partner
         ==================================== -->
 
 
 
 
-	   <div class="row mb50">
-		<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-			<h2>Our Community Spared across the globe</h2>
-			<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-			
+			<div class="row mb50">
+				<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+					<h2>Our Community Spared across the globe</h2>
+					<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
 
+
+				</div>
+
+				<div class="communityPartner__box3">
+					<img src="./img/CommunityPartners/lpu.jpeg" class="communityPartner__image2" alt="">
+					<img src="./img/CommunityPartners/SSIT.jpeg" class="communityPartner__image2" alt="">
+					<img src="./img/CommunityPartners/vit.jpeg" class="communityPartner__image2" alt="">
+
+
+					<img src="./img/CommunityPartners/uem.jpeg" class="communityPartner__image2" alt="">
+
+					<img src="./img/CommunityPartners/abes.jpeg" class="communityPartner__image2" alt="">
+
+					<img src="./img/CommunityPartners/gu.jpeg" class="communityPartner__image2" alt="">
+					<img src="./img/CommunityPartners/iiitb.jpeg" class="communityPartner__image2" alt="">
+					<img src="./img/CommunityPartners/nie.jpeg" class="communityPartner__image2" alt="">
+
+					<img src="./img/CommunityPartners/rgukt.jpeg" class="communityPartner__image2" alt="">
+					<img src="./img/CommunityPartners/sist.jpeg" class="communityPartner__image2" alt="">
+					<img src="./img/CommunityPartners/ski.jpeg" class="communityPartner__image2" alt="">
+
+					<img src="./img/CommunityPartners/soa.jpeg" class="communityPartner__image2" alt="">
+					<!--<img src="./img/CommunityPartners/vssut.jpeg" class="communityPartner__image2" alt=""> -->
+				</div>
 			</div>
-
-			<div class="communityPartner__box3">
-				<img src="./img/CommunityPartners/lpu.jpeg" class="communityPartner__image2" alt="">
-				<img src="./img/CommunityPartners/SSIT.jpeg" class="communityPartner__image2" alt="">
-				<img src="./img/CommunityPartners/vit.jpeg" class="communityPartner__image2" alt="">
-				
-				
-				<img src="./img/CommunityPartners/uem.jpeg" class="communityPartner__image2" alt="">
-				
-				<img src="./img/CommunityPartners/abes.jpeg" class="communityPartner__image2" alt="">
-
-				<img src="./img/CommunityPartners/gu.jpeg" class="communityPartner__image2" alt="">
-				<img src="./img/CommunityPartners/iiitb.jpeg" class="communityPartner__image2" alt="">
-				<img src="./img/CommunityPartners/nie.jpeg" class="communityPartner__image2" alt="">
-				
-				<img src="./img/CommunityPartners/rgukt.jpeg" class="communityPartner__image2" alt="">
-				<img src="./img/CommunityPartners/sist.jpeg" class="communityPartner__image2" alt="">
-				<img src="./img/CommunityPartners/ski.jpeg" class="communityPartner__image2" alt="">
-				
-				<img src="./img/CommunityPartners/soa.jpeg" class="communityPartner__image2" alt="">
-				<!--<img src="./img/CommunityPartners/vssut.jpeg" class="communityPartner__image2" alt=""> -->
 		</div>
-	   </div>
-	</div>
-	
-</section>
+
+	</section>
 
 
 
@@ -802,7 +831,7 @@ Get expert guidance with career, Open Source, and internships, jobs around the w
 
 
 
-<!--
+	<!--
        End  Student partner
         ==================================== -->
 
@@ -869,10 +898,13 @@ Get expert guidance with career, Open Source, and internships, jobs around the w
 					data-wow-delay="600ms">
 					<ul class="footer-social">
 
-						<li><a href="https://twitter.com/" target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" target="_blank"><i class="fa fa-youtube-play fa-2x"></i></a></li>
-						<li><a href="https://www.facebook.com/eduhubcommunity" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
-						<li><a href="https://www.linkedin.com/company/eduhub-community"><i class="fa fa-linkedin fa-2x" target="_blank"></i></a></li>
+						<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" target="_blank"><i
+									class="fa fa-youtube-play fa-2x"></i></a></li>
+						<li><a href="https://www.facebook.com/eduhubcommunity" target="_blank"><i
+									class="fa fa-facebook fa-2x"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/eduhub-community"><i class="fa fa-linkedin fa-2x"
+									target="_blank"></i></a></li>
 					</ul>
 				</div>
 				<!-- end footer social links -->
@@ -921,10 +953,12 @@ Get expert guidance with career, Open Source, and internships, jobs around the w
 						<ul>
 							<li><a href="#">Linkedin</a></li>
 							<li><a href="https://www.instagram.com/eduhub_community/" target="_blank">Instagram</a></li>
-							<li><a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" target="_blank">Youtube</a></li>
+							<li><a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ"
+									target="_blank">Youtube</a></li>
 							<li><a href="https://github.com/Eduhub-Community" target="_blank">Github</a></li>
-							<li><a href="https://www.linkedin.com/company/eduhub-community" target="_blank">Linkedin</a></li>
-							
+							<li><a href="https://www.linkedin.com/company/eduhub-community" target="_blank">Linkedin</a>
+							</li>
+
 						</ul>
 					</div>
 				</div>
@@ -979,11 +1013,18 @@ Get expert guidance with career, Open Source, and internships, jobs around the w
 	<!-- Google Map -->
 	<script type="text/javascript"
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places">
-		</script>
+	</script>
 	<!-- jquery easing -->
 	<script src="js/jquery.easing.min.js"></script>
 	<!-- jquery easing -->
 	<script src="js/wow.min.js"></script>
+
+	<script>
+		function goto($hashtag){
+			document.location = "https://eduhubcommunity.tech/eduhub-website/1.0/TeamPage.html" + $hashtag;
+		}
+	</script>
+
 	<script>
 		var wow = new WOW({
 			boxClass: 'wow', // animated element css class (default is wow)
