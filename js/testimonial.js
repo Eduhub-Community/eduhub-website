@@ -28,6 +28,29 @@ function initParadoxWay() {
             }
         });
     }
+// auto slide feature and centering the active swiper slide
+var mySwiper = new Swiper(".swiper-container", {
+        fadeEffect: { crossFade: true },
+        autoplay: {
+            effect: 'fade',
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        speed: 1000,
+        centeredSlides: true,
+        disableOnInteraction: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        // Responsive breakpoints
+        breakpoints: {
+            810: {
+                slidesPerView: 2,
+            },
+            1360: {
+                slidesPerView: 3,
+            }
+        }
+    });
     
 // bubbles -----------------
     
