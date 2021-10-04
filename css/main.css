@@ -184,12 +184,15 @@ Header
 Slider
 ==========================================*/
 
-#slider {
-  padding: 0;
-}
 
+.bg
+{
+  width:100%;
+  
+}
 #slider .carousel-inner .item {
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .carousel-caption {
