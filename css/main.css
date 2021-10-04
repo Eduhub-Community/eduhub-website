@@ -263,6 +263,135 @@ Slider
   padding: 5px 10px;
 }
 
+/* whatsapp button changes */
+
+.buttonNewWhatsapp {
+  background: #1aab8a;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 50px;
+}
+
+.buttonNewWhatsapp:hover {
+  background: #fff;
+  color: #1aab8a;
+}
+.buttonNewWhatsapp:before,
+buttonNewWhatsapp:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 3px;
+  width: 0px;
+  background: #1aab8a;
+  transition: 400ms ease all;
+}
+.buttonNewWhatsapp:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.buttonNewWhatsapp:hover:before,
+buttonNew:hover:after {
+  width: 89%;
+  transition: 800ms ease all;
+}
+
+/* telegram button changes */
+.buttonNewTele {
+  background: #7289d9;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 50px;
+}
+
+.buttonNewTele:hover {
+  background: #fff;
+  color: #7289d9;
+}
+.buttonNewTele:before,
+buttonNewWhatsapp:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 3px;
+  width: 0;
+  background: #7289d9;
+  transition: 400ms ease all;
+}
+.buttonNewTele:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.buttonNewTele:hover:before,
+buttonNewTele:hover:after {
+  width: 89%;
+  transition: 800ms ease all;
+}
+
+/* discord button changes */
+
+.buttonNewDis {
+  background: #7289d9;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 50px;
+}
+
+.buttonNewDis:hover {
+  background: #fff;
+  color: #7289d9;
+}
+.buttonNewDis:before,
+buttonNewDis:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 2px;
+  width: 0;
+  background: #7289d9;
+  transition: 400ms ease all;
+}
+.buttonNewDis:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.buttonNewDis:hover:before,
+buttonNewDis:hover:after {
+  width: 89%;
+  transition: 800ms ease all;
+}
+
+
 .carousel-indicators {
   bottom: 10px;
   left: inherit;

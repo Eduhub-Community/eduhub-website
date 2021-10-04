@@ -101,3 +101,17 @@
 	height: 15px;
 	transition: all 300ms ease-in-out;
 }
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    width: 50%;
+}
+
+.swiper-slide {
+    text-align: center;
+    width: auto;
+}
+
