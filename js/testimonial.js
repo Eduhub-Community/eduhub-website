@@ -54,7 +54,7 @@ var mySwiper = new Swiper(".swiper-container", {
     
 // bubbles -----------------
     
-    
+    if (randomValue) {
     setInterval(function () {
         var size = randomValue(sArray);
         $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
@@ -65,6 +65,7 @@ var mySwiper = new Swiper(".swiper-container", {
             $(this).remove()
         });
     }, 350);
+    }
     
 }
 

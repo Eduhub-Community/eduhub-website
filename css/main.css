@@ -427,6 +427,7 @@ Social Media links
 .social{
   position: fixed;
   height: 100vh;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
