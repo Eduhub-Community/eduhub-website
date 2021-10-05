@@ -430,12 +430,13 @@ Social Media links
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 100;
   transform: translate(-290px, 0);
 }
 
 .social a{
   color: #fff;
-  background: rgba(0, 0, 0);
+  background: #000;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -451,7 +452,7 @@ Social Media links
 
 .social a:hover{
   transform: translate(140px, 0);
-  
+  background-color: #5fb9a7;
 }
 
 .social i{
