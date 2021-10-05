@@ -8,6 +8,7 @@ body {
   line-height: 21px;
   font-size: 13px;
   color: #6a737b;
+  overflow-x: hidden;
 }
 
 ol,
