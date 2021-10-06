@@ -702,7 +702,10 @@ Our Team Member
 }
 .section-team {
   font-family: "Poppins", sans-serif;
-  padding: 80px 0;
+  padding-top: 80vh;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 80px;
 }
 
 .section-team .header-section {
