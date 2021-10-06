@@ -1149,3 +1149,25 @@ Contact Us
   row-gap: 20px;
   justify-content: center;
 }
+
+/*=========================================
+Scroll-bar
+==========================================*/
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6a737b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0eb493; 
