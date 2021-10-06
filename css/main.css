@@ -3,6 +3,16 @@
 /* =================================== */
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
 
+:root {
+  --marquee-width: 80vw;
+  --marquee-height: 25vh;
+  --marquee-elements-displayed: 5;
+  --marquee-element-width: calc(
+    var(--marquee-width) / var(--marquee-elements-displayed)
+  );
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
 body {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
@@ -1148,4 +1158,74 @@ Contact Us
   flex-wrap: wrap;
   row-gap: 20px;
   justify-content: center;
+}
+
+/* ====== Partners ======= */
+
+#client-logo {
+  margin: 50px auto;
+}
+
+#client-logo .logo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  color: var(--color-black);
+  overflow: hidden;
+  position: relative;
+}
+.marquee:before,
+.marquee:after {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+}
+.marquee:after {
+  right: 0;
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-1 * var(--marquee-element-width) * var(--marquee-elements))
+    );
+  }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height) * 3 / 4);
+  white-space: nowrap;
+}
+
+.marquee-content li img {
+  height: 80%;
+  padding: 10px;
 }
