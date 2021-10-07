@@ -1112,19 +1112,19 @@ label.error {
 }
 
 .footer-social li:nth-child(1) a:hover {
-  color: #00acee;
-  transform: scale(1.2);
-}
-.footer-social li:nth-child(2) a:hover {
   color: #ff0000;
   transform: scale(1.2);
 }
-.footer-social li:nth-child(3) a:hover {
+.footer-social li:nth-child(2) a:hover {
   color: #3b5998;
   transform: scale(1.2);
 }
-.footer-social li:nth-child(4) a:hover {
+.footer-social li:nth-child(3) a:hover {
   color: #0077b5;
+  transform: scale(1.2);
+}
+.footer-social li:nth-child(4) a:hover {
+  color: #8a3ab9;
   transform: scale(1.2);
 }
 
