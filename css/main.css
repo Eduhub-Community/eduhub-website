@@ -55,7 +55,10 @@ a:hover {
   outline: 0;
 }
 
-a:focus,
+.nav a:focus {
+  color: black !important;
+}
+
 a:hover {
   color: #6cb670;
 }
@@ -533,6 +536,7 @@ Social Media links
 .social a:nth-child(3) i {
   color: transparent;
   background-image: linear-gradient(45deg, #ffdf9e, #e56969, #8a49a1);
+  background-clip: text;  /* Added due to compatibility issue */
   -webkit-background-clip: text;
   font-weight: 600;
 }
@@ -1314,7 +1318,7 @@ Contact Us
   height: 80%;
   padding: 10px;
 }
-=======
+
 /*=========================================
 Scroll-bar
 ==========================================*/
@@ -1336,4 +1340,4 @@ Scroll-bar
 
 ::-webkit-scrollbar-thumb:hover {
   background: #0eb493; 
-
+}
