@@ -17,12 +17,12 @@
 	display: none;
 	position: relative;
 	width: 100%;
-	-ms-touch-action: pan-y;
+	touch-action: pan-y;
 }
 .owl-carousel .owl-wrapper{
 	display: none;
 	position: relative;
-	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
@@ -61,10 +61,10 @@
 /* fix */
 .owl-carousel  .owl-wrapper,
 .owl-carousel  .owl-item{
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
-  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
