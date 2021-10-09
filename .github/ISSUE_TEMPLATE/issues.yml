@@ -1,0 +1,16 @@
+name: "Bug Report"
+description: "Submit an issue to help us improve"
+title: "Log an Issue: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking out the time to fill out our bug report form
+  - type: textarea
+    id: what-happened
+    validations:
+      required: true
+    attributes:
+      label: "Explain about the Bug"
+      description: "What problem did you encounter ?"
+      placeholder: "The problem ..."
