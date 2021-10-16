@@ -326,59 +326,7 @@ Slider
 .social-button a {
   padding: 5px 10px;
 }
-.donate{
-  display: flex;
-  flex-direction: column;
-}
-.row{
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-}
-.pay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #0eb493;
-  color: rgb(0, 0, 0);
-  border: none;
-  position: relative;
-  height: 60px;
-  font-size: 1.6em;
-  padding: 0 2em;
-  cursor: pointer;
-  transition: 800ms ease all;
-  outline: none;
-  border-radius: 50px;
-  margin-left: 3rem;
-}
 
-.pay:hover {
-  background: #fff;
-  color: #000000;
-}
-.pay:before,
-pay:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 8px;
-  height: 3px;
-  width: 0px;
-  background: #1aab8a;
-  transition: 400ms ease all;
-}
-.pay:after {
-  right: inherit;
-  top: inherit;
-  left: 0;
-  bottom: 0;
-}
-.pay:hover:before,
-.pay:hover:after {
-  width: 89%;
-  transition: 800ms ease all;
-}
 /* whatsapp button changes */
 
 .buttonNewWhatsapp {
