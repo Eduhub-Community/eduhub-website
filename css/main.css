@@ -991,6 +991,24 @@ Blog
   min-height: 250px;
 }
 
+.card-img-top {
+	max-width: 100%;
+	cursor: pointer;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* IE 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+
+.card-img-top:hover {
+	-webkit-transform: scale(1.15); /* Safari and Chrome */
+	-moz-transform: scale(1.15); /* Firefox */
+	-ms-transform: scale(1.15); /* IE 9 */
+	-o-transform: scale(1.15); /* Opera */
+	 transform: scale(1.15);
+}
+
 .tag {
   background: #cccccc;
   border-radius: 50px;
@@ -1142,7 +1160,7 @@ Contact Us
 ==========================================*/
 
 .footer {
-  background-color: #062033;
+  background-color: #100633;
   border-top: 5px solid #1ea78d;
   color: #fff;
 }
