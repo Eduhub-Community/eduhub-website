@@ -917,6 +917,7 @@
 									class="form-control"></textarea>
 							</div>
 							<div class="input-group">
+								<!-- <span id="error" class="d-none text-danger">Form submission failed! Please try again.</span> -->
 								<input type="submit" id="form-submit" class="pull-right" value="Send message">
 							</div>
 						</form>
@@ -1096,14 +1097,10 @@
 					$(form).ajaxSubmit({
 						type: "POST",
 						data: $(form).serialize(),
-						url: "process.php",
+						url: "contact.php",
 						success: function () {
 							$('#contact-form :input').attr('disabled', 'disabled');
-							$('#contact-form').fadeTo("slow", 0.15, function () {
-								$(this).find(':input').attr('disabled', 'disabled');
-								$(this).find('label').css('cursor', 'default');
-								$('#success').fadeIn();
-							});
+							$('#contact-form').html("<span id='success' class='text-success'>Thanks for contacting us! We will be in touch with you shortly.</span>");
 						},
 						error: function () {
 							$('#contact-form').fadeTo("slow", 0.15, function () {
