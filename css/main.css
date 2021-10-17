@@ -893,7 +893,13 @@ Some fun facts
   width: 90%;
   margin: auto;
 }
-
+.project-wrapper .work-item{
+  box-shadow: 5px 10px 10px #888888;
+  margin-bottom: 10px;
+}
+.project-wrapper .work-item,img,figcaption{
+  border-radius: 20px;
+}
 #facts {
   background-image: url("../img/wallpaper.png");
   background-color: rgba(6, 32, 51, 0.8);
