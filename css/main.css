@@ -1424,13 +1424,17 @@ About-Us Page
 }
 
 .apply-div{
-  margin-left: 1000px;
-  margin-top: -60px;
+  /* margin-left: 1000px;
+  margin-top: -60px; */
+  /* justify-content: center; */
+  margin-top: 2%;
 }
 
 .campus-box{
   margin-top: 10px;
-  height: 200px;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  height: 6%;
   /* background-color: black; */
   color: white;
   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://weblogiccommunity.files.wordpress.com/2018/12/cropped-Developer-Community.png');
@@ -1439,8 +1443,9 @@ About-Us Page
 }
 
 .campus-info{
-  margin-left:60px;
-  padding-top: 40px;
-  font-size: 17px;
+  /* margin-left:60px; */
+  /* justify-content: center; */
+  padding-top: 1%;
+  font-size: 16px;
 
 }
