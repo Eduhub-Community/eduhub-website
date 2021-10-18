@@ -1406,3 +1406,38 @@ About-Us Page
 .join-div{
   margin-top: 10px;
 }
+
+
+.apply-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.apply-btn:hover{
+  color:#000;
+}
+
+.apply-div{
+  margin-left: 1000px;
+  margin-top: -60px;
+}
+
+.campus-box{
+  margin-top: 10px;
+  height: 180px;
+  /* background-color: black; */
+  color: white;
+  background-image:url('https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/how-to-plan-a-programming-competition-header@2x.png');
+}
+
+.campus-info{
+  margin-left:60px;
+  padding-top: 40px;
+  font-size: 17px;
+}
