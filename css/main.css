@@ -1430,14 +1430,17 @@ About-Us Page
 
 .campus-box{
   margin-top: 10px;
-  height: 180px;
+  height: 200px;
   /* background-color: black; */
   color: white;
-  background-image:url('https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/how-to-plan-a-programming-competition-header@2x.png');
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://weblogiccommunity.files.wordpress.com/2018/12/cropped-Developer-Community.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .campus-info{
   margin-left:60px;
   padding-top: 40px;
   font-size: 17px;
+
 }
