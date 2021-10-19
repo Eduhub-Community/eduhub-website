@@ -1,0 +1,73 @@
+body {
+  padding: 20px 150px;
+}
+h3 {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 400px;
+  font-family: "Work Sans", sans-serif;
+  color: gray;
+  display: inline-block;
+}
+.line {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  bottom: 4.5px;
+  background-color: #55ff18;
+  width: 120px;
+  height: 2px;
+  border-radius: 50px;
+}
+.Heading-intern h1 {
+  letter-spacing: -1px;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px 0px;
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  font-family: "Work Sans";
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.left-content {
+  width: 50%;
+}
+.right-content {
+  width: 50%;
+}
+h4 {
+  font-family: "Work Sans", sans-serif;
+}
+#boys {
+  height: auto;
+  width: 100%;
+}
+tr:nth-child(even) td {
+  background-color: #d3d3d3;
+}
+.vacancy {
+  font-family: "Work Sans";
+  height: 200px;
+  width: 100%;
+  border: 2px solid;
+  border-color: #d3d3d3;
+}
+.tick {
+  width: 20px;
+  height: auto;
+}
+.btn {
+  color: #ffffff;
+  font-size: 16px;
+  background: #56cc5f;
+  padding: 10px 20px 10px 20px;
+  border: none;
+}
+
+.btn:hover {
+  background: #9ae1af;
+}
