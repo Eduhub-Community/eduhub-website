@@ -79,3 +79,18 @@ tr:nth-child(even) td{
     background: #56cc5f;
     text-decoration: none;
   }
+  @media only screen and (max-width: 600px) {
+    .content{
+        display: inline;
+        
+    }
+    .left-content{
+        width: 100%;
+    }
+    .right-content{
+        width: 100%;
+    }
+    p{
+        width: fit-content;
+    }
+  }
