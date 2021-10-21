@@ -63,6 +63,32 @@ tr:nth-child(even) td{
     width: 20px;
     height: auto;
 }
+
+th {
+  background-color: #53e053;
+  color: white;
+}
+
+th,td{
+     padding: 10px 12px;
+}
+
+.button {
+  background-color: white;
+  color: Black;
+  border: 1px solid #4CAF50;
+  
+  padding: 5px 15px;
+  text-align: center;
+  margin: 4px 2px;
+  padding: 2px 22px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
 .btn {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
