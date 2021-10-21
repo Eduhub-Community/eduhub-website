@@ -719,6 +719,10 @@ Our Team Member
   padding: 80px 0;
 }
 
+.section-team h2 {
+  margin-top: 18em;
+}
+
 .section-team .header-section {
   margin-bottom: 50px;
 }
