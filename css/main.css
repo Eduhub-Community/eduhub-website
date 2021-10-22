@@ -203,7 +203,7 @@ Header
 }
 
 .navbar-nav li a {
-  border-top: 1px solid transparent;
+  border-top: 0px solid transparent;
   color: rgba(255, 255, 255, 0.7);
 }
 .navbar-nav a:hover {
@@ -366,7 +366,7 @@ buttonNewWhatsapp:after {
 }
 .buttonNewWhatsapp:hover:before,
 buttonNew:hover:after {
-  width: 89%;
+  width: 87%;
   transition: 800ms ease all;
 }
 
@@ -408,7 +408,7 @@ buttonNewWhatsapp:after {
 }
 .buttonNewTele:hover:before,
 buttonNewTele:hover:after {
-  width: 89%;
+  width: 87%;
   transition: 800ms ease all;
 }
 
@@ -416,7 +416,7 @@ buttonNewTele:hover:after {
 
 .buttonNewDis {
   background: #0088cc;
-  color: #fff;
+  color: #fff
   border: none;
   position: relative;
   height: 60px;
@@ -451,7 +451,7 @@ buttonNewDis:after {
 }
 .buttonNewDis:hover:before,
 buttonNewDis:hover:after {
-  width: 89%;
+  width: 87%;
   transition: 800ms ease all;
 }
 
