@@ -273,13 +273,17 @@ Slider
   font-weight: 300;
   margin: 6px 0 20px;
 }
-
+#quote_2{
+  text-shadow:1px 1px #000;
+}
 .carousel-caption p {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
 }
-
+.c2{
+  opacity: 0.9;
+}
 .carousel-caption p:before,
 .carousel-caption p:after {
   color: #0feb9e;
