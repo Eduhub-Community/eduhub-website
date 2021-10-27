@@ -129,5 +129,9 @@ Hurray! You successfully made a contribution!
 <h1 align=center>Happy Coding 👨‍💻 </h1>
 </p>
 
+<div align="center">
+	
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+
+</div>
