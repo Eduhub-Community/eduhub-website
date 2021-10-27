@@ -164,7 +164,7 @@ Header
 ==========================================*/
 
 #navigation {
-  background-color: rgba(16, 22, 54, 0.2);
+  background-color: rgba(94, 98, 121, 0.2);
   border: 0 none;
   margin: 0;
 
@@ -608,7 +608,7 @@ Features
 }
 
 /*=========================================
-Our Works
+Events
 ==========================================*/
 
 .work-filter {
@@ -694,9 +694,11 @@ Our Works
 
 .work-item .overlay a {
   border: 1px solid #fff;
-  border-radius: 50%;
+  border-radius: 100%;
   display: inline-block;
   margin-top: 5%;
+  padding:12px !important;
+  color:red;
   padding: 7px 10px;
 }
 
@@ -716,6 +718,27 @@ Our Works
   line-height: 24px;
 }
 
+.project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  width: 100%;
+}
+.project-wrapper .work-item{
+  box-sizing: border-box;
+  box-shadow:0 3px 10px rgb(0 0 0 / 0.5) !important;
+  margin-bottom: 30px;
+  border-color:white;
+  height:300px;
+}
+.project-wrapper img{
+  height:300px;
+  border-radius:15px;
+}
+
+.project-wrapper .work-item,figcaption{
+  border-radius: 15px;
+  height:301px !important;
+}
 /*=========================================
 Our Team Member
 ==========================================*/
@@ -899,19 +922,8 @@ a.button1 {
 /*=========================================
 Some fun facts
 ==========================================*/
-.project-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-  width: 90%;
-  margin: auto;
-}
-.project-wrapper .work-item{
-  box-shadow: 5px 10px 10px #888888;
-  margin-bottom: 10px;
-}
-.project-wrapper .work-item,img,figcaption{
-  border-radius: 20px;
-}
+
+
 #facts {
   background-image: url("../img/wallpaper.png");
   background-color: rgba(6, 32, 51, 0.8);
@@ -1045,9 +1057,13 @@ Blog
 }
 .tag-teal {
   background-color: #47bcd4;
+  padding:10px;
+  border-radius:5px;
 }
 .tag-teal:hover {
   background-color: #0d7c67;
+  width:250px;
+  text-align:center;
 }
 
 .card-body p {
@@ -1483,3 +1499,14 @@ About-Us Page
   font-size: 16px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
