@@ -101,6 +101,11 @@ header{
 }
 .blog-content{
     margin: 2rem 0;
+    
+}
+.blog-item{
+    box-sizing: border-box;
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2) !important;
 }
 .blog-img{
     position: relative;
@@ -113,6 +118,9 @@ header{
     color: #fff;
     font-size: 1.4rem;
     padding: 0.3rem 0.6rem;
+}
+.blog-img:hover{
+    opacity:0.8 !important;
 }
 .blog-text{
     margin: 2.2rem 0;
@@ -145,10 +153,17 @@ header{
     color: #fff;
     padding: 0.55rem 1.2rem;
     transition: all 0.5s ease;
+    margin-bottom:15px;
 }
 .blog-text a:hover{
     background: var(--exDark);
+    transition: 0.8 ease-in-out;
+    width:350px;
+    text-align:center;
 }
+
+
+
 
 /* about */
 .about{
