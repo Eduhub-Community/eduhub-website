@@ -29,7 +29,7 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 ![Watch The Video](https://media-exp1.licdn.com/dms/image/C5622AQH9A_Lm5rLgYw/feedshare-shrink_800/0/1632638756402?e=1635379200&v=beta&t=jlFYotmlITv4ZUOIpfCo5zQuFYW4ZwKACGI-oA9MHbQ)
 
-# Hacktoberfest Practice Pull Requests
+#  Practice Pull Requests
 
 Repo for you to raise a Pull Request for practice.
 
