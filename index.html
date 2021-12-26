@@ -1121,6 +1121,14 @@
 	<script src="js/jquery.easing.min.js"></script>
 	<!-- jquery easing -->
 	<script src="js/wow.min.js"></script>
+
+	<!-- emailjs cdn -->
+	<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+	<!-- emailjs cdn -->
+
 	<script>
 		var wow = new WOW({
 			boxClass: 'wow', // animated element css class (default is wow)
@@ -1168,20 +1176,25 @@
 					}
 				},
 				submitHandler: function (form) {
-					$(form).ajaxSubmit({
-						type: "POST",
-						data: $(form).serialize(),
-						url: "contact.php",
-						success: function () {
-							$('#contact-form :input').attr('disabled', 'disabled');
-							$('#contact-form').html("<span id='success' class='text-success'>Thanks for contacting us! We will be in touch with you shortly.</span>");
-						},
-						error: function () {
-							$('#contact-form').fadeTo("slow", 0.15, function () {
-								$('#error').fadeIn();
-							});
-						}
-					});
+					// <!-- emailjs to mail contact form data -->
+                    $(form).submit(function(e) {
+                        emailjs.init("PASTE YOUR USER ID HERE");
+                        
+                        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+                        .then(function(response) {
+                            //    console.log('SUCCESS!', response.status, response.text);
+	                		$('#contact-form :input').attr('disabled', 'disabled');
+	                	    $(form).html("<span id='success' class='text-success'>Thanks for contacting us! We will be in touch with you shortly.</span>");
+                            document.getElementById("contact-form").reset();
+                            // alert("Form Submitted Successfully");
+                        }, function(error) {
+                            $(form).fadeTo("slow", 0.15, function () {
+	                			$('#error').fadeIn();
+	                		});
+                        });
+                        e.preventDefault();
+                    });
+                    // <!-- emailjs to mail contact form data -->
 				}
 			});
 		});
