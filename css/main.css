@@ -53,6 +53,7 @@ a:focus,
 a:hover {
   text-decoration: none;
   outline: 0;
+  color: black;
 }
 
 .nav a:focus {
@@ -487,7 +488,14 @@ buttonNewDis:hover:after {
   height: 70px;
   width: 25rem;
 }
-
+.learn-more-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 47px;
+  margin: auto;
+}
 /*=========================================
 Social Media links 
 ==========================================*/
