@@ -158,7 +158,7 @@ header{
 .blog-text a:hover{
     background: var(--exDark);
     transition: 0.8 ease-in-out;
-    width:350px;
+    width: 320px;
     text-align:center;
 }
 
