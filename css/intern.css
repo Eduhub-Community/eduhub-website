@@ -74,10 +74,10 @@ th,td{
 }
 
 .button {
-  background-color: white;
-  color: Black;
-  border: 1px solid #4CAF50;
-  
+  background-color: #4CAF50;
+  color: black;
+  /* border: 2px solid #4CAF50; */
+  border-radius: 5px;
   padding: 5px 15px;
   text-align: center;
   margin: 4px 2px;
@@ -85,26 +85,23 @@ th,td{
 }
 
 .button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background-color: #fff;
 }
 
 .btn {
-    -webkit-border-radius: 5;
-    -moz-border-radius: 5;
-    border-radius: 5px;
+    border: 2px solid #4CAF50;
     font-family: Courier New;
     color: #ffffff;
     font-size: 16px;
     background: #53e053;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
+}
   
-  .btn:hover {
-    background: #56cc5f;
-    text-decoration: none;
-  }
+.btn:hover {
+    background-color: #4CAF50;
+}
+
   @media only screen and (max-width: 600px) {
     .content{
         display: inline;
