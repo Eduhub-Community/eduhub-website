@@ -273,15 +273,15 @@ Slider
   font-weight: 300;
   margin: 6px 0 20px;
 }
-#quote_2{
-  text-shadow:1px 1px #000;
+#quote_2 {
+  text-shadow: 1px 1px #000;
 }
 .carousel-caption p {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
 }
-.c2{
+.c2 {
   opacity: 0.9;
 }
 .carousel-caption p:before,
@@ -540,7 +540,7 @@ Social Media links
 .social a:nth-child(3) i {
   color: transparent;
   background-image: linear-gradient(45deg, #ffdf9e, #e56969, #8a49a1);
-  background-clip: text;  /* Added due to compatibility issue */
+  background-clip: text; /* Added due to compatibility issue */
   -webkit-background-clip: text;
   font-weight: 600;
 }
@@ -697,8 +697,8 @@ Events
   border-radius: 100%;
   display: inline-block;
   margin-top: 5%;
-  padding:12px !important;
-  color:red;
+  padding: 12px !important;
+  color: red;
   padding: 7px 10px;
 }
 
@@ -723,21 +723,22 @@ Events
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   width: 100%;
 }
-.project-wrapper .work-item{
+.project-wrapper .work-item {
   box-sizing: border-box;
-  box-shadow:0 3px 10px rgb(0 0 0 / 0.5) !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5) !important;
   margin-bottom: 30px;
-  border-color:white;
-  height:300px;
+  border-color: white;
+  height: 300px;
 }
-.project-wrapper img{
-  height:300px;
-  border-radius:15px;
+.project-wrapper img {
+  height: 300px;
+  border-radius: 15px;
 }
 
-.project-wrapper .work-item,figcaption{
+.project-wrapper .work-item,
+figcaption {
   border-radius: 15px;
-  height:301px !important;
+  height: 301px !important;
 }
 /*=========================================
 Our Team Member
@@ -824,7 +825,8 @@ Our Team Member
   float: left;
 }
 .single-person {
-  width: 300px;
+  width: 272px;
+  height: 450px;
   margin-left: 20px;
   box-shadow: 0 14px 28px rgba(173, 173, 173, 0.25),
     0 10px 10px rgba(129, 129, 129, 0.22);
@@ -922,7 +924,6 @@ a.button1 {
 /*=========================================
 Some fun facts
 ==========================================*/
-
 
 #facts {
   background-image: url("../img/wallpaper.png");
@@ -1027,22 +1028,22 @@ Blog
 }
 
 .card-img-top {
-	max-width: 100%;
+  max-width: 100%;
   border-radius: 0;
-	cursor: pointer;
-	-webkit-transition: all 1s ease; /* Safari and Chrome */
-	-moz-transition: all 1s ease; /* Firefox */
-	-ms-transition: all 1s ease; /* IE 9 */
-	-o-transition: all 1s ease; /* Opera */
-	transition: all 1s ease;
+  cursor: pointer;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
 }
 
 .card-img-top:hover {
-	-webkit-transform: scale(1.15); /* Safari and Chrome */
-	-moz-transform: scale(1.15); /* Firefox */
-	-ms-transform: scale(1.15); /* IE 9 */
-	-o-transform: scale(1.15); /* Opera */
-	 transform: scale(1.15);
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  -moz-transform: scale(1.15); /* Firefox */
+  -ms-transform: scale(1.15); /* IE 9 */
+  -o-transform: scale(1.15); /* Opera */
+  transform: scale(1.15);
 }
 
 .tag {
@@ -1057,13 +1058,13 @@ Blog
 }
 .tag-teal {
   background-color: #47bcd4;
-  padding:10px;
-  border-radius:5px;
+  padding: 10px;
+  border-radius: 5px;
 }
 .tag-teal:hover {
   background-color: #0d7c67;
-  width:250px;
-  text-align:center;
+  width: 250px;
+  text-align: center;
 }
 
 .card-body p {
@@ -1098,7 +1099,6 @@ Blog
 .user-info small {
   color: #545d7a;
 }
-
 
 /*=========================================
 Contact Us
@@ -1317,7 +1317,6 @@ Contact Us
   justify-content: center;
 }
 
-
 /* ====== Partners ======= */
 
 #client-logo {
@@ -1397,7 +1396,7 @@ Scroll-bar
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
@@ -1408,14 +1407,14 @@ Scroll-bar
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0eb493; 
+  background: #0eb493;
 }
 
 /*=========================================
 About-Us Page
 ==========================================*/
 
-.about-heading{
+.about-heading {
   width: auto;
   height: 20%;
   padding-top: 30px;
@@ -1423,18 +1422,18 @@ About-Us Page
   text-align: center;
   background-color: #474e5d;
   color: white;
-  margin-top:50px;
+  margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#about-img{
+#about-img {
   margin-left: 5%;
   margin-top: 4%;
-  width:90%;
+  width: 90%;
   justify-content: center;
 }
 
-.about-para{
+.about-para {
   font-size: 20px;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
@@ -1442,7 +1441,7 @@ About-Us Page
   margin-left: 4%;
 }
 .join-btn {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
@@ -1452,14 +1451,13 @@ About-Us Page
   font-size: 16px;
 }
 
-.join-div{
+.join-div {
   margin-top: 10px;
   margin-left: 40%;
 }
 
-
 .apply-btn {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
@@ -1469,44 +1467,33 @@ About-Us Page
   font-size: 16px;
 }
 
-.apply-btn:hover{
-  color:#000;
+.apply-btn:hover {
+  color: #000;
 }
 
-.apply-div{
+.apply-div {
   /* margin-left: 1000px;
   margin-top: -60px; */
   /* justify-content: center; */
   margin-top: 2%;
 }
 
-.campus-box{
+.campus-box {
   margin-top: 10px;
   padding-top: 2%;
   padding-bottom: 3%;
   height: 6%;
   /* background-color: black; */
   color: white;
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://weblogiccommunity.files.wordpress.com/2018/12/cropped-Developer-Community.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://weblogiccommunity.files.wordpress.com/2018/12/cropped-Developer-Community.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.campus-info{
+.campus-info {
   /* margin-left:60px; */
   /* justify-content: center; */
   padding-top: 1%;
   font-size: 16px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
