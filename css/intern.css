@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&family=EB+Garamond:wght@500&family=Nunito&family=Poppins:wght@300&family=Source+Code+Pro:wght@500&family=Source+Sans+Pro&family=Source+Serif+4&family=Titillium+Web&display=swap');
+
 body{
-    padding: 20px 150px;
+    padding: 20px 70px;
 }
-h3{
+h2{
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-weight: 400px;
-    font-family: 'Work Sans', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif; 
     color:gray; 
     display: inline-block;
 }
@@ -19,30 +21,33 @@ h3{
     height: 2px;
     border-radius: 50px;
 }
+
 .Heading-intern h1{
     letter-spacing: -1px;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     margin:0px 0px;
     font-family: 'Work Sans', sans-serif; 
 }
 p{
-    font-family: 'Work Sans';
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    padding: 7px 0px;
 }
 .content{
     display: flex;
     flex-direction: row;
 }
 .left-content{
-    
-    width: 50%;
+    width: 49%;
+    margin-right: 28px;
 }
 .right-content{
-    
-   width: 50%;
+    width: 49%;
+    margin-left: 28px;
 }
 h4{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 #boys{
     height: auto;
@@ -53,7 +58,8 @@ tr:nth-child(even) td{
     background-color: #D3D3D3;
 }
 .vacancy{
-    font-family: 'Work Sans';
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
     height: 200px;
     width: 100%;
     border: 2px solid;
@@ -65,20 +71,20 @@ tr:nth-child(even) td{
 }
 
 th {
-  background-color: #53e053;
-  color: white;
+    background-color: #53e053;
+    color: white;
+    text-align: center;
 }
 
 th,td{
-     padding: 10px 12px;
+    text-align: center !important;
+    padding: 12px !important;
 }
 
 .button {
-  background-color: white;
-  color: Black;
+  background-color: white ;
+  color: #4CAF50;
   border: 1px solid #4CAF50;
-  
-  padding: 5px 15px;
   text-align: center;
   margin: 4px 2px;
   padding: 2px 22px;
@@ -89,16 +95,20 @@ th,td{
   color: white;
 }
 
-.btn {
+.btn-learn{
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
-    border-radius: 5px;
-    font-family: Courier New;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     background: #53e053;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    width: max-content;
   }
   
   .btn:hover {
@@ -120,3 +130,10 @@ th,td{
         width: fit-content;
     }
   }
+
+.navbar{
+    background-color: white;
+}
+h3{
+    margin-bottom: 10px !important;
+}
