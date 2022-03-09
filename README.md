@@ -1,3 +1,4 @@
+# GSSOC2022
 # [Eduhub Community Website](https://eduhubcommunity.tech/eduhub-website/) 
 ![](https://media-exp1.licdn.com/dms/image/C561BAQGHkaBU59EqbQ/company-background_10000/0/1625329990412?e=1637859600&v=beta&t=NCpLhsLu3BarBeEiz45qOjlxfB7qJaFIQKCFRsxRZNs)
 [**Eduhub Community**](https://eduhubcommunity.tech/)
@@ -21,13 +22,6 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 </div>
 
-# Want to be a Mentor for hacktoberfest
-
-- [Fill up this form](https://forms.gle/KaH9auwwkDzqYy547)
-
-# Hacktoberfest
-
-![Watch The Video](https://media-exp1.licdn.com/dms/image/C5622AQH9A_Lm5rLgYw/feedshare-shrink_800/0/1632638756402?e=1635379200&v=beta&t=jlFYotmlITv4ZUOIpfCo5zQuFYW4ZwKACGI-oA9MHbQ)
 
 #  Practice Pull Requests
 
