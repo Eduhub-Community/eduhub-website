@@ -65,6 +65,12 @@ tr:nth-child(even) td{
     border: 2px solid;
     border-color: #D3D3D3;
 }
+
+.vacancy a{
+    color: black;
+
+}
+
 .tick{
     width: 20px;
     height: auto;

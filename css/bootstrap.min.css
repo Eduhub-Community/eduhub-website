@@ -178,10 +178,10 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-td,
+/* td,
 th {
   padding: 0;
-} /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+}  Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   :before,
