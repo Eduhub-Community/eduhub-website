@@ -87,6 +87,7 @@ header{
 
 .title{
     text-align: center;
+    margin-top: 100px;
 }
 
 .title h2{
@@ -134,8 +135,8 @@ header{
 .blog-text h2{
     font-family: var(--Playfair);
     padding: 1rem 0;
-    font-size: 1.65rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 700;
 }
 .blog-text p{
     font-weight: 300;
@@ -145,7 +146,7 @@ header{
 }
 .blog-text a{
     font-family: var(--Roboto);
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: var(--dark);
     display: inline-block;
@@ -156,10 +157,26 @@ header{
     margin-bottom:15px;
 }
 .blog-text a:hover{
-    background: var(--exDark);
+    background: #004e3f;
+    color:#fff;
     transition: 0.8 ease-in-out;
-    width:350px;
+    border-radius: 50px;
     text-align:center;
+    animation: read-more 1s infinite;
+}
+@keyframes read-more{
+    0%{
+        position: relative;
+        bottom: 0px;
+    }
+    50%{
+        position: relative;
+        bottom: 5px;
+    }
+    100%{
+        position: relative;
+        bottom: 0px;
+    }
 }
 
 /* about */
