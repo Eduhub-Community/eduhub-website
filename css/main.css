@@ -167,12 +167,11 @@ Header
   background-color: rgba(94, 98, 121, 0.2);
   border: 0 none;
   margin: 0;
-
   -webkit-transition: background-color 800ms linear;
   -moz-transition: background-color 800ms linear;
   -ms-transition: background-color 800ms linear;
   -o-transition: background-color 800ms linear;
-  transition: background-color 800ms linear;
+  transition: background-color 800ms linear; 
 }
 
 .navbar-toggle i {
@@ -192,7 +191,7 @@ Header
 
 .navbar-nav * {
   box-sizing: border-box;
-  transition: all 0.35s ease;
+  /* transition: all 0.35s ease; */
 }
 
 .navbar-nav li {
@@ -206,38 +205,57 @@ Header
   border-top: 1px solid transparent;
   color: rgba(255, 255, 255, 0.7);
 }
+/*new block*/
+.navbar-nav li a::after {
+  border-top: 1px solid transparent;
+  /* color: rgba(255, 255, 255, 0.7); */
+  content: "";
+  display: block;
+  /* position: absolute; */
+  width: 100%;
+  height: 3px;
+  background: darkgreen;/*line*/
+  transition: transform 700ms ease-in-out;
+  transform: scale(0);
+}
+.navbar-nav li a:hover::after{
+  transform:scale(1);
+}
+
 .navbar-nav a:hover {
   color: darkgreen;
   outline: none;
+  font-size: 13.75px;
 }
+
 .navbar-nav a::before,
 .navbar-nav a::after {
-  content: "";
+  /* content: "";
   height: 14px;
   width: 14px;
   position: absolute;
   transition: all 0.35s ease;
-  opacity: 0;
+  opacity: 0; */
+
 }
 .navbar-nav a::before {
   content: "";
   right: 0;
   top: 0;
-  border-top: 3px solid #3e8914;
-  border-right: 3px solid #2e640f;
-  transform: translate(-100%, 50%);
+  /* border-top: 3px solid #3e8914;
+  border-right: 3px solid #2e640f; */
+  /* transform: translate(-100%, 50%); */
 }
 .navbar-nav a:after {
   content: "";
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid #2e640f;
-  border-left: 3px solid #3e8914;
-  transform: translate(100%, -50%);
+  /* border-bottom: 3px solid #2e640f;
+  border-left: 3px solid #3e8914; */
 }
 .navbar-nav a:hover:before,
 .navbar-nav a:hover:after {
-  transform: translate(0, 0);
+  /* transform: translate(0, 0); */
   opacity: 1;
 }
 .navbar-nav a:hover {
