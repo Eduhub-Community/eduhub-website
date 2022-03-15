@@ -340,7 +340,7 @@ Slider
   position: relative;
   height: 60px;
   font-size: 1.6em;
-  padding: 0 2em;
+  padding: 0 1em;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
@@ -370,7 +370,7 @@ buttonNewWhatsapp:after {
 }
 .buttonNewWhatsapp:hover:before,
 buttonNew:hover:after {
-  width: 89%;
+  width: 85%;
   transition: 800ms ease all;
 }
 
@@ -382,7 +382,7 @@ buttonNew:hover:after {
   position: relative;
   height: 60px;
   font-size: 1.6em;
-  padding: 0 2em;
+  padding: 0 1em;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
@@ -412,7 +412,7 @@ buttonNewWhatsapp:after {
 }
 .buttonNewTele:hover:before,
 buttonNewTele:hover:after {
-  width: 89%;
+  width: 85%;
   transition: 800ms ease all;
 }
 
@@ -425,7 +425,7 @@ buttonNewTele:hover:after {
   position: relative;
   height: 60px;
   font-size: 1.6em;
-  padding: 0 2em;
+  padding: 0 1em;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
@@ -434,7 +434,7 @@ buttonNewTele:hover:after {
 
 .buttonNewDis:hover {
   background: #fff;
-  color: #7289d9;
+  color: #0088cc;
 }
 .buttonNewDis:before,
 buttonNewDis:after {
@@ -442,9 +442,9 @@ buttonNewDis:after {
   position: absolute;
   top: 0;
   right: 20px;
-  height: 2px;
+  height: 3px;
   width: 0;
-  background: #7289d9;
+  background: #0088cc;
   transition: 400ms ease all;
 }
 .buttonNewDis:after {
@@ -455,7 +455,7 @@ buttonNewDis:after {
 }
 .buttonNewDis:hover:before,
 buttonNewDis:hover:after {
-  width: 89%;
+  width: 85%;
   transition: 800ms ease all;
 }
 
@@ -843,7 +843,7 @@ a.button1 {
   padding: 10px 20px;
   font-size: 16px;
   border: 0.16em solid rgba(255, 255, 255, 0);
-  border-radius: 5px;
+  border-radius: 9px;
   margin-top: 55px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
@@ -1426,7 +1426,11 @@ About-Us Page
   margin-top:50px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.about-title{
+  font-size:22px;
+  font-weight:bold;
+  margin-left:6%;
+}
 #about-img{
   margin-left: 5%;
   margin-top: 4%;
@@ -1435,11 +1439,11 @@ About-Us Page
 }
 
 .about-para{
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 4%;
-  margin-left: 4%;
+  margin-right: 6%;
+  margin-left: 6%;
 }
 .join-btn {
   background-color: #4CAF50; /* Green */
@@ -1450,11 +1454,18 @@ About-Us Page
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  
+}
+.join-btn:hover{
+  color:#4CAF50;
+  background-color:white;
+  border:1px solid #4CAF50;
 }
 
 .join-div{
   margin-top: 10px;
   margin-left: 40%;
+  border-radius:2px ;
 }
 
 
@@ -1462,15 +1473,17 @@ About-Us Page
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 10px 25px;
+  padding: 9px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 30px;
 }
 
 .apply-btn:hover{
-  color:#000;
+  color:#4CAF50;
+  background-color:white;
 }
 
 .apply-div{

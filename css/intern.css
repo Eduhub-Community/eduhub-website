@@ -14,7 +14,7 @@ h3{
     position: relative;
     left: 5px;
     bottom: 3px;
-    background-color: #55FF18;
+    background-color: #1ea78d;
     width: 120px;
     height: 2px;
     border-radius: 50px;
@@ -28,20 +28,25 @@ h3{
 }
 p{
     font-family: 'Work Sans';
+    font-size:14px;
+    padding-top:20px;
 }
 .content{
     display: flex;
     flex-direction: row;
 }
 .left-content{
-    
+    margin-top:10px;
     width: 50%;
 }
 .right-content{
-    
+    margin-left:30px;
    width: 50%;
 }
-h4{
+.right-content h4{
+    padding:20px 30px;
+    font-size:20px;
+    font-weight:bold;
     font-family: 'Work Sans', sans-serif;
 }
 #boys{
@@ -59,23 +64,29 @@ tr:nth-child(even) td{
     border: 2px solid;
     border-color: #D3D3D3;
 }
+.vacancy tr th{
+    padding:10px;
+}
+.vacancy tr td{
+padding-left:10px;
+width:100%;
+}
 .tick{
     width: 20px;
     height: auto;
 }
 
 th {
-  background-color: #53e053;
+  background-color: #1ea78d;
   color: white;
 }
 
 th,td{
      padding: 10px 12px;
 }
-
 .button {
-  background-color: white;
-  color: Black;
+  
+  color: #4CAF50;
   border: 1px solid #4CAF50;
   
   padding: 5px 15px;
@@ -89,20 +100,22 @@ th,td{
   color: white;
 }
 
-.btn {
+.learn-more {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Courier New;
     color: #ffffff;
     font-size: 16px;
-    background: #53e053;
-    padding: 10px 20px 10px 20px;
+    background: #1ea78d;
     text-decoration: none;
+    padding:10px 20px 10px 20px;
   }
   
-  .btn:hover {
-    background: #56cc5f;
+  .learn-more:hover {
+    background: white;
+    color:#4CAF50;
+    border:1px solid #4CAF50;
     text-decoration: none;
   }
   @media only screen and (max-width: 600px) {
