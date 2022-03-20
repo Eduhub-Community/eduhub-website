@@ -14,7 +14,7 @@ h3{
     position: relative;
     left: 5px;
     bottom: 3px;
-    background-color: #55FF18;
+    background-color: #0eb493;
     width: 120px;
     height: 2px;
     border-radius: 50px;
@@ -66,12 +66,12 @@ tr:nth-child(even) td{
 }
 
 .tick{
-    width: 20px;
+    width: 30px;
     height: auto;
 }
 
 th {
-  background-color: #53e053;
+  background-color: #0eb493;
   color: white;
 }
 
@@ -82,7 +82,7 @@ th,td{
 .button {
   background-color: white;
   color: Black;
-  border: 1px solid #4CAF50;
+  border: 1px solid #0eb493;
   
   padding: 5px 15px;
   text-align: center;
@@ -91,10 +91,12 @@ th,td{
 }
 
 .button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background-color: #0eb493; /* Green */
+  color: black;
 }
-
+.apply-button:hover{
+    color:black;
+}
 .btn {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
@@ -102,7 +104,7 @@ th,td{
     font-family: Courier New;
     color: #ffffff;
     font-size: 16px;
-    background: #53e053;
+    background: #0eb493;  
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }

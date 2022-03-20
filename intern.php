@@ -71,7 +71,7 @@
         <div class="content">
             <div class="left-content">
                 <p>
-                    LFC hsa been nurturing, defining and leading the IT training market.
+                    LFC has been nurturing, defining and leading the IT training market.
                     As a leading Global Talent Development Corporation, LFC has been ranked among the Top 20
                     IT Training communities in the country.
                 </p>
@@ -88,14 +88,14 @@
                     to make LFC you career destination. At LFC you can build yourself and your career.
                     To us, both count.
                 </p>
-                <p><img class="tick" src="img/tick.png" alt="pointer1">
+                <p><img class="tick" src="img/tick-icon.jpg" alt="pointer1" >
                     Objectives: To produce outputs with minimal yet smart work.
                 </p>
-                <p><img class="tick" src="img/tick.png" alt="pointer2">
+                <p><img class="tick" src="img/tick-icon.jpg" alt="pointer2">
                     Expectations: Determined to solve a given problem with outmost sincerity and punctuality.
 
                 </p>
-                <p><img class="tick " src="img/tick.png" alt="pointer3">
+                <p><img class="tick " src="img/tick-icon.jpg" alt="pointer3">
                     Incentives: In LFC we believe in the growth of the individual along wiht the community. Various
                     perks includes cash rewards, swags, coupons and many more.
                 </p>
@@ -125,28 +125,28 @@
                             <td>Web Developer</td>
                             <td>Products</td>
                             <td>NA</td>
-                            <td><Button class="button"><a href="#" style="text-decoration: none;">Apply Now</Button>
+                            <td><Button class="button"><a href="#" style="text-decoration: none;" class="apply-button">Apply Now</Button>
                             </td>
                         </tr>
                         <tr>
                             <td>Business & Sales</td>
                             <td>Marketing</td>
                             <td>NA</td>
-                            <td><Button class="button"><a href="#" style="text-decoration: none;">Apply Now</Button>
+                            <td><Button class="button"><a href="#" style="text-decoration: none;" class="apply-button">Apply Now</Button>
                             </td>
                         </tr>
                         <tr>
                             <td>Event Managers</td>
                             <td>Events</td>
                             <td>NA</td>
-                            <td><Button class="button"><a href="#" style="text-decoration: none;">Apply Now</Button>
+                            <td><Button class="button"><a href="#" style="text-decoration: none;" class="apply-button">Apply Now</Button>
                             </td>
                         </tr>
                         <tr>
                             <td>Marketing Interns</td>
                             <td>Marketing</td>
                             <td>NA</td>
-                            <td><Button class="button"><a href="#" style="text-decoration: none;">Apply Now</Button>
+                            <td><Button class="button"><a href="#" style="text-decoration: none;" class="apply-button">Apply Now</Button>
                             </td>
                         </tr>
                     </table>

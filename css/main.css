@@ -1075,12 +1075,12 @@ Blog
   cursor: pointer;
 }
 .tag-teal {
-  background-color: #47bcd4;
+  background-color: #0eb493;
   padding: 10px;
   border-radius: 5px;
 }
 .tag-teal:hover {
-  background-color: #0d7c67;
+  background-color: #08584a;
   width: 250px;
   text-align: center;
 }
@@ -1459,7 +1459,7 @@ About-Us Page
   margin-left: 4%;
 }
 .join-btn {
-  background-color: #4caf50; /* Green */
+  background-color: #0eb493; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
@@ -1475,7 +1475,7 @@ About-Us Page
 }
 
 .apply-btn {
-  background-color: #4caf50; /* Green */
+  background-color: #0eb493; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
