@@ -4,9 +4,9 @@
 [**Eduhub Community**](https://eduhubcommunity.tech/)
 `Please join Our organization`
 
-<b>This repo will be <u> partcipating </u> in Open source events so let's contribute in this website and get into the world of open source **world**.</b>
+<b>This repo will be <u> participating </u> in Open source events so let's contribute in this website and get into the world of open source **world**.</b>
 
-We have other repositories in the organisation you can contribute to. If you would like to join our GitHub organisation, raise an issue on this [repo](https://github.com/Eduhub-Community/support) and Create PR.
+We have other repositories in the organization you can contribute to. If you would like to join our GitHub organization, raise an issue on this [repo](https://github.com/Eduhub-Community/support) and Create PR.
 
 ---
 
@@ -27,7 +27,7 @@ We have other repositories in the organisation you can contribute to. If you wou
 
 Repo for you to raise a Pull Request for practice.
 
-**Just raise your issue if you want to upgrade other wise work on exsisting issues**
+**Just raise your issue if you want to upgrade other wise work on existing issues**
 
 Questions can be asked by raising an `Issue`.
 
@@ -65,7 +65,7 @@ git pull upstream main
 git checkout -b <your_branch_name>
 ```
 
-**7.** Perfom your desired changes to the code base.
+**7.** Perform your desired changes to the code base.
 
 <p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
@@ -103,7 +103,7 @@ Hurray! You successfully made a contribution!
 
 </p>
 
-<h1 align=center> Project Mainteners ❤️ </h1>
+<h1 align=center> Project Maintainers ❤️ </h1>
 <p align="center">
   <a href="https://github.com/SahityaRoy"><img src="https://avatars.githubusercontent.com/u/72821604?v=4" width=150px height=150px /></a> 
 	<p align="center">
