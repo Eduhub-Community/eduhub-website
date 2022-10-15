@@ -1,4 +1,9 @@
-# GSSOC2022
+<h1 align="center">Eduhub Community Website </h1>
+<h4 align="center"> It’s a community for the people by the people. The vision of the community is to build an environment where people can learn together and implement together., We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
+<h3 align="center"> An Open Source Website for Eduhub Community built using HTML, CSS, JavaScript and Bootstrap Php </h3>
+
+![image](https://res.cloudinary.com/practicaldev/image/fetch/s--u9O3bUqe--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/12t9r8j7n9ynxbdzhs5p.png)
+
 # [Eduhub Community Website](https://eduhubcommunity.tech/eduhub-website/) 
 ![](https://media-exp1.licdn.com/dms/image/C561BAQGHkaBU59EqbQ/company-background_10000/0/1625329990412?e=1637859600&v=beta&t=NCpLhsLu3BarBeEiz45qOjlxfB7qJaFIQKCFRsxRZNs)
 [**Eduhub Community**](https://eduhubcommunity.tech/)
