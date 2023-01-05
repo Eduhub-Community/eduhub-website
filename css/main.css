@@ -824,6 +824,11 @@ Our Team Member
   font-weight: 700;
 }
 
+/* Decresed letter spacing to avoid line breaks */
+.section-team .col:nth-child(3) .single-person .person-info .full-name {
+  letter-spacing: -1px;
+}
+
 .section-team .single-person .person-info .speciality {
   text-transform: uppercase;
   font-size: 14px;
