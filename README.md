@@ -92,13 +92,13 @@ git commit -m "Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**11.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+**11.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
 
 **12.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
 
 **13.** Click on `Create Pull Request`.
 
-**14.** Hurray ❗ You have created a PR to Eduhub-Community Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+**14.** Hurray ❗ You have created a PR to Eduhub-Community Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too, so be Patient and keep contributing.
 
 Hurray! You successfully made a contribution!
 
