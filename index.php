@@ -671,7 +671,7 @@
 
 			<!-- / End Header Section -->
 
-			<div class="row">
+			<div class="row text-center">
 				<!-- Start Single Person -->
 				<div class="col">
 					<div class="single-person">
